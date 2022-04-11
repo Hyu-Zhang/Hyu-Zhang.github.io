@@ -61,8 +61,8 @@ ACM MM 21 Student Travel Grant, 2021
 
 National Scholarship, 2021
 
-Top 10 Outstanding Students of the School of Computer Science, 2019
+Top 10 Outstanding Students of the School of Computer Science, 2020
 
-Outstanding Graduates of Shandong Province, 2019
+Outstanding Graduates of Shandong Province, 2020
 
 First Class Academic Scholarship, 2016-2020
