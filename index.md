@@ -28,6 +28,8 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
         <ul>
         <li>
           Bachelor of Engineering (B.E.), Digital Media Technologies</li>
+        <li>
+          Graduated with Excellent Thesis Award</li>
       </ul>      
       </div>
 
