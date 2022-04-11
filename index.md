@@ -42,7 +42,7 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
         <li>
           Position: Academic Intern, in Alibaba Cloud Intelligence </li>
                 <img border="0" src="nus_logo.png" align="right" width="70">
-        <li>Partial Person Re-identification  </li>
+        <li>Project: Partial Person Re-identification  </li>
       </ul>      
       </div>
       
