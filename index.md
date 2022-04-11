@@ -8,11 +8,12 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
 ## Education
 
 <div align="left">
-        <strong> Shandong University, Qingdao, China (Sep 2020 - Now) </strong>
+        <strong> Shandong University, Qingdao, China</strong>
           <a target="_blank" rel="external">
             <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
           </a> 
         <ul>
+        <li> Sep 2020 - Now </li>
         <li>
           Master of Engineering (M.E.), Electronic Information</li>
         <li>
@@ -22,13 +23,12 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
       
 <div align="left">
         <strong> Shandong University of Science and Technology, Qingdao, China</strong>
-        
-        <strong>  (Sep 2016 - Jun 2020) </strong>
-        
           <a target="_blank" rel="external">
             <img border="0" src="sdust_logo.jpg" align="right" width="70" height="70">
           </a> 
         <ul>
+        <li>
+          Sep 2016 - Jun 2020</li>
         <li>
           Bachelor of Engineering (B.E.), Digital Media Technologies</li>
         <li>
