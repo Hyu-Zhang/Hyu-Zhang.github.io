@@ -22,6 +22,7 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
       
 <div align="left">
         <strong> Shandong University of Science and Technology, Qingdao, China</strong>
+        
         <strong>  (Sep 2016 - Jun 2020) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="sdust_logo.jpg" align="right" width="70" height="70">
