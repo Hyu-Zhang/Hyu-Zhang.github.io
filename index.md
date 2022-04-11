@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of Computer Science and Technology, Shandong University, advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). My research focused on Multimodal Dialog.
+I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of Computer Science and Technology, Shandong University, advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). My research focused on Multimodal Dialog.
 
 ## Education
 
