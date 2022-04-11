@@ -16,14 +16,14 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
         <li>
           Master of Engineering (M.E.), Electronic Information</li>
         <li>
-          Advisor: Prof. Liqiang Nie</li>
+          Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
       </ul>      
       </div>
       
 <div align="left">
         <strong> Shandong University of Science and Technology, Qingdao, China (Sep 2016 - Jun 2020) </strong>
           <a href="http://www.henu.edu.cn/" target="_blank" rel="external">
-            <img border="0" src="henan_logo.jpg" align="right" width="70" height="70">
+            <img border="0" src="sdust_logo.jpg" align="right" width="70" height="70">
           </a> 
         <ul>
         <li>
@@ -36,13 +36,13 @@ I’m Haoyu Zhang (张昊宇), I currently a Master Student with the School of C
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Now) </strong>
           <a target="_blank" rel="external">
-            <img border="0" src="next-logo.png" align="right" width="70">
+            <img border="0" src="alibaba_white.jpg" align="right" width="70">
           </a> 
         <ul>
         <li>
           Position: Academic Intern, in Alibaba Cloud Intelligence </li>
-                <img border="0" src="nus_logo.png" align="right" width="70">
-        <li>Project: Partial Person Re-identification  </li>
+        <li>
+          Project: Partial Person Re-identification  </li>
       </ul>      
       </div>
       
