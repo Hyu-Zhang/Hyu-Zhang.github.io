@@ -39,7 +39,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 ## Experience
      
 <div align="left">
-        <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Now) </strong>
+        <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jun 2022) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="alibaba_white.jpg" align="right" width="70">
           </a> 
