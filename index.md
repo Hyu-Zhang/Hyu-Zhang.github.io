@@ -53,9 +53,9 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
       
 ## Publications
 
-**Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM Conference on Multimedia, (**ACM MM**), 2021. [code](https://acmmmtreasure.wixsite.com/treasure)
+**Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM Conference on Multimedia (**ACM MM**), CCF-A, 2021. [code](https://acmmmtreasure.wixsite.com/treasure)
 
-Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM Conference on Multimedia, (**ACM MM**), 2022. [code](https://outfitrec.wixsite.com/bihgh)
+Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM Conference on Multimedia (**ACM MM**), CCF-A, 2022. [code](https://outfitrec.wixsite.com/bihgh)
 
 ## Awards
 
