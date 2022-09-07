@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of Computer Science and Technology, Shandong University, advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). My research focused on Multimodal Dialog and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of Computer Science and Technology, Shandong University, advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). I received my B.E. degree in the School of Computer Science and Engineering from Shandong University of Science and Technology in 2020. My research interests include Multimodal Dialog and Person Re-identification.
 
 ## Education
 
@@ -53,18 +53,30 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
       
 ## Publications
 
-**Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM Conference on Multimedia (**ACM MM**), CCF-A, 2021. [code](https://acmmmtreasure.wixsite.com/treasure)
+**Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Full Paper, 2021. [code](https://acmmmtreasure.wixsite.com/treasure)
 
-Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM Conference on Multimedia (**ACM MM**), CCF-A, 2022. [code](https://outfitrec.wixsite.com/bihgh)
+Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Oral, 2022. [code](https://outfitrec.wixsite.com/bihgh)
+
+## Professional Services
+
+Conference Reviewer: ACM MM 2022, NeurIPS 2022.
 
 ## Awards
 
-ACM MM 21 Student Travel Grant, 2021
-
 National Scholarship, 2021
 
-Top 10 Outstanding Students of the School of Computer Science, 2020
+Outstanding Graduate Student of Shandong University, 2021
+
+ACM MM Student Travel Grant, 2021
 
 Outstanding Graduates of Shandong Province, 2020
+
+Outstanding Graduates from Shandong University of Science and Technology, 2020
+
+Top 10 Outstanding Students in the School of Computer Science and Engineering, 2019
+
+Provincial Government Encouragement Scholarship, 2018
+
+National Encouragement Scholarship, 2017
 
 First Class Academic Scholarship, 2016-2020
