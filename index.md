@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of Computer Science and Technology, Shandong University, advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). I received my B.E. degree in the School of Computer Science and Engineering from Shandong University of Science and Technology in 2020. My research interests include Multimodal Dialog and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of Computer Science and Technology, [Shandong University](https://www.sdu.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). I received my B.E. degree in the School of Computer Science and Engineering from [Shandong University of Science and Technology](http://www.sdust.edu.cn/) in 2020. My research interests include Multimodal Dialog and Person Re-identification.
 
 ## Education
 
