@@ -13,9 +13,9 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
             <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
           </a> 
         <ul>
-        <li> Sep 2020 - Jun 2023 </li>
+        <li>School of Computer Science and Technology, Sep 2020 - Jun 2023 </li>
         <li>
-          Master of Engineering (M.E.), Electronic Information</li>
+          Master of Engineering (M.E.)</li>
         <li>
           Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
       </ul>      
@@ -28,9 +28,9 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
           </a> 
         <ul>
         <li>
-          Sep 2016 - Jun 2020</li>
+          School of Computer Science and Engineering, Sep 2016 - Jun 2020</li>
         <li>
-          Bachelor of Engineering (B.E.), Digital Media Technologies</li>
+          Bachelor of Engineering (B.E.)</li>
         <li>
           Graduated with Excellent Thesis Award</li>
       </ul>      
