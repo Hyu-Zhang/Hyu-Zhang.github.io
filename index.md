@@ -80,3 +80,7 @@ Provincial Government Encouragement Scholarship, 2018
 National Encouragement Scholarship, 2017
 
 First Class Academic Scholarship, 2016-2020
+
+## Patents
+
+对话意图识别、用于识别对话意图的模型的训练方法, CN113590798A
