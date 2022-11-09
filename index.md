@@ -61,6 +61,8 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 Conference Reviewer: ACM MM 2022, NeurIPS 2022.
 
+Journal Reviewer: Information Sciences 2022.
+
 ## Awards
 
 National Scholarship, 2021
