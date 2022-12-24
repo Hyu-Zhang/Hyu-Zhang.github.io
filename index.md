@@ -59,7 +59,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 ## Professional Services
 
-Conference Reviewer: ACM MM 2022, NeurIPS 2022.
+Conference Reviewer: ACM MM 2022, NeurIPS 2022, ICML 2023.
 
 Journal Reviewer: Information Sciences 2022.
 
