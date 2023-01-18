@@ -83,6 +83,10 @@ National Encouragement Scholarship, 2017
 
 First Class Academic Scholarship, 2016-2020
 
+## Competitions
+
+WSDM Cup 2023-Toloka Visual Question Answering Challenge, 6th
+
 ## Patents
 
 对话意图识别、用于识别对话意图的模型的训练方法, CN113590798A
