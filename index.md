@@ -67,6 +67,8 @@ Journal Reviewer: Information Sciences 2022, IEEE TCSVT 2023.
 
 ## Awards
 
+Outstanding Graduates of Shandong University, 2023
+
 National Scholarship, 2021
 
 Outstanding Graduate Student of Shandong University, 2021
