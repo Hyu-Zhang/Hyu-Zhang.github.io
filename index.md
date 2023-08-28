@@ -8,6 +8,18 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 ## Education
 
 <div align="left">
+        <strong> Harbin Institute of Technology, Shenzhen, China</strong>
+          <a target="_blank" rel="external">
+            <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
+          </a> 
+        <ul>
+        <li>School of Computer Science and Technology, Sep 2023 - Jun 2027 </li>
+        <li>
+          Doctor, Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
+      </ul>      
+      </div>
+
+<div align="left">
         <strong> Shandong University, Qingdao, China</strong>
           <a target="_blank" rel="external">
             <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
@@ -15,9 +27,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
         <ul>
         <li>School of Computer Science and Technology, Sep 2020 - Jun 2023 </li>
         <li>
-          Master of Engineering (M.E.)</li>
-        <li>
-          Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
+          Master, Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
       </ul>      
       </div>
       
@@ -30,9 +40,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
         <li>
           School of Computer Science and Engineering, Sep 2016 - Jun 2020</li>
         <li>
-          Bachelor of Engineering (B.E.)</li>
-        <li>
-          Graduated with Excellent Thesis Award</li>
+          Bachelor, Graduated with Excellent Thesis Award</li>
       </ul>      
       </div>
 
