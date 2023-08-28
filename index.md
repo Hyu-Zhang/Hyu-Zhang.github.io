@@ -13,7 +13,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
             <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
           </a> 
         <ul>
-        <li>School of Computer Science and Technology, Sep 2023 - Jun 2027 </li>
+        <li>School of Computer Science and Technology, Sep 2023 - Now </li>
         <li>
           Doctor, Advisor: Prof. Liqiang Nie and Prof. Meng Liu</li>
       </ul>      
