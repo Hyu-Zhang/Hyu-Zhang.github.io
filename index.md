@@ -45,7 +45,17 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
       </div>
 
 ## Experience
-     
+<div align="left">
+        <strong> Pengcheng Laboratory, Shenzhen, China  (Sep 2023 - Now) </strong>
+          <a target="_blank" rel="external">
+            <img border="0" src="alibaba_white.jpg" align="right" width="70">
+          </a> 
+        <ul>
+        <li>
+          Position: Co-culture Student, in Department of Network Intelligence </li>
+      </ul>      
+      </div>    
+      
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jun 2022) </strong>
           <a target="_blank" rel="external">
