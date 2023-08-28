@@ -10,7 +10,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 <div align="left">
         <strong> Harbin Institute of Technology, Shenzhen, China</strong>
           <a target="_blank" rel="external">
-            <img border="0" src="sdu_logo.jpg" align="right" width="80" height="80">
+            <img border="0" src="hit_logo.jpg" align="right" width="80" height="80">
           </a> 
         <ul>
         <li>School of Computer Science and Technology, Sep 2023 - Now </li>
