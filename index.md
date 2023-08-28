@@ -34,7 +34,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 <div align="left">
         <strong> Shandong University of Science and Technology, Qingdao, China</strong>
           <a target="_blank" rel="external">
-            <img border="0" src="sdust_logo.jpg" align="right" width="80" height="80">
+            <img border="0" src="sdust_logo.jpg" align="right" width="70" height="70">
           </a> 
         <ul>
         <li>
@@ -48,7 +48,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 <div align="left">
         <strong> Pengcheng Laboratory, Shenzhen, China  (Sep 2023 - Now) </strong>
           <a target="_blank" rel="external">
-            <img border="0" src="pc_logo.jpg" align="right" width="80" height="80">
+            <img border="0" src="pc_logo.jpg" align="right" width="70" height="70">
           </a> 
         <ul>
         <li>
@@ -59,7 +59,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jun 2022) </strong>
           <a target="_blank" rel="external">
-            <img border="0" src="alibaba_white.jpg" align="right" width="80" height="80">
+            <img border="0" src="alibaba_white.jpg" align="right" width="70" height="70">
           </a> 
         <ul>
         <li>
