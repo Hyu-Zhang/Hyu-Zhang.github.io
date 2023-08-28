@@ -52,7 +52,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
           </a> 
         <ul>
         <li>
-          Position: Co-culture Student, in Department of Network Intelligence </li>
+          Co-culture Student, in Department of Network Intelligence </li>
       </ul>      
       </div>    
       
@@ -63,7 +63,7 @@ I’m Haoyu Zhang (张昊宇), and I currently a Master Student at the School of
           </a> 
         <ul>
         <li>
-          Position: Academic Intern, in Alibaba Cloud Intelligence </li>
+          Academic Intern, in Alibaba Cloud Intelligence </li>
         <li>
           Project: Partial Person Re-identification  </li>
       </ul>      
