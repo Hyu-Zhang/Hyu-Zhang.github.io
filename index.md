@@ -76,7 +76,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 **Haoyu Zhang**, Meng Liu, Yaowei Wang, Da Cao, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog_". arXiv preprint, arXiv:2310.07259, 2023.<br />
 [Paper](https://arxiv.org/abs/2310.07259) [Code](https://github.com/Hyu-Zhang/ITR)
 
-**Haoyu Zhang**, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie. "_Attribute-guided Collaborative Learning for Partial Person Re-identification_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, 2023.<br />
+**Haoyu Zhang**, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie. "_Attribute-guided Collaborative Learning for Partial Person Re-identification_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, IF 23.6, 2023.<br />
 [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469) 
 
 Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Oral, 2022.<br />
