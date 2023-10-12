@@ -73,11 +73,11 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
       
 ## Publications
 
-**Haoyu Zhang**, Meng Liu, Yaowei Wang, Da Cao, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog_". Preprint, 2023.<br />
-[Paper]()
+**Haoyu Zhang**, Meng Liu, Yaowei Wang, Da Cao, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog_". arXiv preprint, arXiv:2310.07259, 2023.<br />
+[Paper](https://arxiv.org/abs/2310.07259) [Code](https://github.com/Hyu-Zhang/ITR)
 
 **Haoyu Zhang**, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie. "_Attribute-guided Collaborative Learning for Partial Person Re-identification_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, 2023.<br />
-[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469)
+[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469) [Code]()
 
 Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Oral, 2022.<br />
 [Paper](https://dl.acm.org/doi/pdf/10.1145/3503161.3548020)  [Code](https://outfitrec.wixsite.com/bihgh)  [Video](https://dl.acm.org/doi/10.1145/3503161.3548020)
