@@ -92,6 +92,9 @@ Conference Reviewer: ACM MM 2022, NeurIPS 2022, ICML 2023, NeurIPS 2023, ACM MM 
 Journal Reviewer: Information Sciences 2022, IEEE TCSVT 2023, IEEE TMM 2023, IEEE TKDE 2023.
 
 ## Awards
+<!--
+2023信创与数字经济博士后海河学术论坛，三等奖
+-->
 
 Outstanding Graduates of Shandong University, 2023
 
@@ -117,6 +120,8 @@ First Class Academic Scholarship, 2016-2020
 
 WSDM Cup 2023-Toloka Visual Question Answering Challenge, 6th
 
+<!--
 ## Patents
 
 对话意图识别、用于识别对话意图的模型的训练方法, CN113590798A
+-->
