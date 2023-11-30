@@ -74,16 +74,16 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 ## Publications
 
 **Haoyu Zhang**, Meng Liu, Yaowei Wang, Da Cao, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog_". arXiv preprint, arXiv:2310.07259, 2023.<br />
-[Paper](https://arxiv.org/abs/2310.07259) [Code](https://github.com/Hyu-Zhang/ITR)
+[[Paper](https://arxiv.org/abs/2310.07259)] [[Code](https://github.com/Hyu-Zhang/ITR)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:bxW7q-aNp24J:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_wBNU:AFWwaeYAAAAAZWf2HNVOdiXLSNdEp7u1hjo5B6U&scisig=AFWwaeYAAAAAZWf2HNQEqziRSd_eQR1eOQIO6VU&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 **Haoyu Zhang**, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie. "_Attribute-guided Collaborative Learning for Partial Person Re-identification_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, IF 23.6, 2023.<br />
-[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469) 
+[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:Vfu3wDDAACkJ:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_zwJY:AFWwaeYAAAAAZWf12JbA30lLpUR7_ex0jfb6ce0&scisig=AFWwaeYAAAAAZWf12Pb3KGZUnGWya4S3EojqKjk&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1)]
 
 Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Oral, 2022.<br />
-[[Paper](https://dl.acm.org/doi/pdf/10.1145/3503161.3548020)]  [Code](https://outfitrec.wixsite.com/bihgh)  [Video](https://dl.acm.org/doi/10.1145/3503161.3548020)
+[[Paper](https://dl.acm.org/doi/pdf/10.1145/3503161.3548020)]  [[Code](https://outfitrec.wixsite.com/bihgh)]  [[BibTex]([https://dl.acm.org/doi/10.1145/3503161.3548020](https://scholar.googleusercontent.com/scholar.bib?q=info:whI8shH9dGYJ:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_zgIo:AFWwaeYAAAAAZWf1mIpPednMUGzY2C8bepxSuJg&scisig=AFWwaeYAAAAAZWf1mI2jR-QM1Ol8A3pJNJuZz_A&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1))]
 
 **Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Full Paper, 2021.<br />
-[Paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475234)  [Code](https://acmmmtreasure.wixsite.com/treasure)  [Video](https://dl.acm.org/doi/abs/10.1145/3474085.3475234)
+[[Paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475234)]  [[Code](https://acmmmtreasure.wixsite.com/treasure)]  [[BibTex]([https://dl.acm.org/doi/abs/10.1145/3474085.3475234](https://scholar.googleusercontent.com/scholar.bib?q=info:sxu9IiZxnHoJ:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_zXSs:AFWwaeYAAAAAZWf1RSvvBON_-lgnF66Ll05n7gA&scisig=AFWwaeYAAAAAZWf1RVcAn1Emt3utFKL5Nde3pXY&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1))]
 
 ## Professional Services
 
@@ -118,7 +118,7 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
-WSDM Cup 2023-Toloka Visual Question Answering Challenge, 6th
+WSDM Cup 2023-Toloka Visual Question Answering Challenge, 6th Place
 
 <!--
 ## Patents
