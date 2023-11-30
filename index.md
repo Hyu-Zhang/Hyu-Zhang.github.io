@@ -80,7 +80,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469) 
 
 Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang. "_Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Oral, 2022.<br />
-[Paper](https://dl.acm.org/doi/pdf/10.1145/3503161.3548020)  [Code](https://outfitrec.wixsite.com/bihgh)  [Video](https://dl.acm.org/doi/10.1145/3503161.3548020)
+[[Paper](https://dl.acm.org/doi/pdf/10.1145/3503161.3548020)]  [Code](https://outfitrec.wixsite.com/bihgh)  [Video](https://dl.acm.org/doi/10.1145/3503161.3548020)
 
 **Haoyu Zhang**, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie. "_Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding_". ACM International Conference on Multimedia (**ACM MM**), CCF-A, Full Paper, 2021.<br />
 [Paper](https://dl.acm.org/doi/pdf/10.1145/3474085.3475234)  [Code](https://acmmmtreasure.wixsite.com/treasure)  [Video](https://dl.acm.org/doi/abs/10.1145/3474085.3475234)
