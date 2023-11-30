@@ -118,7 +118,7 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
-WSDM Cup 2023-Toloka Visual Question Answering Challenge, 6th Place
+WSDM Cup 2023-Toloka Visual Question Answering Challenge, Rank 6th
 
 <!--
 ## Patents
