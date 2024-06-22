@@ -129,9 +129,9 @@ First Class Academic Scholarship, 2016-2020
 
 Ego4D EgoSchema Challenge, Rank 1st, 2024
 
-Ego4D Goal Step Challenge, Rank 2nd, 2024
+Ego4D Natural Language Query Challenge, Rank 2nd, 2024
 
-Ego4D Natural Language Query Challenge, Rank 3rd, 2024
+Ego4D Goal Step Challenge, Rank 3rd, 2024
 
 WSDM Cup-Toloka Visual Question Answering Challenge, Rank 6th, 2023
 
