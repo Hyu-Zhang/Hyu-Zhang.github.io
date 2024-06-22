@@ -73,6 +73,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
       
 ## Publications
 
+**Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop(**CVPR Workshop**), 2024.<br />
+[[Paper]()]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex]()]
+
 **Haoyu Zhang**, Meng Liu, Zixin Liu, Xuemeng Song, Yaowei Wang, Liqiang Nie. "_Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering_". International Conference on Machine Learning (**ICML**), CCF-A, Full Paper, 2024.<br />
 [[Paper](https://icml.cc/virtual/2024/poster/32847)]  [[Code](https://github.com/Hyu-Zhang/EgoVideoQA)]  [[BibTex]()]
 
