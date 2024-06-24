@@ -104,6 +104,8 @@ Journal Reviewer: Information Sciences, IEEE TCSVT, IEEE TMM, IEEE TKDE.
 <!--
 2023信创与数字经济博士后海河学术论坛，三等奖
 -->
+ICML Travel Grant, 2024
+
 Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023
 
 Outstanding Graduates of Shandong University, 2023
