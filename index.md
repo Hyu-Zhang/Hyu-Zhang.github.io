@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). Also I am a Co-culture Student at [Peng Cheng Laboratory](https://www.pcl.ac.cn/) under the supervision of [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN). Before that, I received my M.E. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Multimodal Dialog and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). Also I am a Co-culture Student at [Peng Cheng Laboratory](https://www.pcl.ac.cn/) under the supervision of [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN). Before that, I received my M.E. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric VideoQA, Multimodal Dialog, and Person Re-identification.
 
 ## Education
 
@@ -104,6 +104,7 @@ Journal Reviewer: Information Sciences, IEEE TCSVT, IEEE TMM, IEEE TKDE.
 <!--
 2023信创与数字经济博士后海河学术论坛，三等奖
 -->
+Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023
 
 Outstanding Graduates of Shandong University, 2023
 
