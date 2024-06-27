@@ -57,7 +57,22 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
           Advisor: Prof. Yaowei Wang  </li>
       </ul>      
       </div>    
-      
+
+<!--
+<div align="left">
+        <strong> Kwai Technology, Beijing, China  (Jun 2024 - Jun 2025) </strong>
+          <a target="_blank" rel="external">
+            <img border="0" src="kuaishou.png" align="right" width="70" height="70">
+          </a> 
+        <ul>
+        <li>
+          Academic Intern</li>
+        <li>
+          Project: Video Question Answering  </li>
+      </ul>      
+      </div>
+-->
+
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jul 2022) </strong>
           <a target="_blank" rel="external">
@@ -70,7 +85,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
           Project: Partial Person Re-identification  </li>
       </ul>      
       </div>
-      
+
 ## Publications
 
 **Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
