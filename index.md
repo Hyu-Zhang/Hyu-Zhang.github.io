@@ -58,9 +58,8 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
       </ul>      
       </div>    
 
-<!--
 <div align="left">
-        <strong> Kwai Technology, Beijing, China  (Jun 2024 - Jun 2025) </strong>
+        <strong> Kuaishou Technology, Beijing, China  (Jun 2024 - Jun 2025) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="kuaishou.png" align="right" width="70" height="70">
           </a> 
@@ -71,7 +70,6 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
           Project: Video Question Answering  </li>
       </ul>      
       </div>
--->
 
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jul 2022) </strong>
