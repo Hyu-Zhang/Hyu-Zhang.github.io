@@ -147,11 +147,11 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
-Ego4D EgoSchema Challenge, Rank 1st, 2024
+CVPR Ego4D Challenge-EgoSchema Track, Rank 1st, 2024
 
-Ego4D Natural Language Query Challenge, Rank 2nd, 2024
+CVPR Ego4D Challenge-Natural Language Query Track, Rank 2nd, 2024
 
-Ego4D Goal Step Challenge, Rank 3rd, 2024
+CVPR Ego4D Challenge-Goal Step Track, Rank 3rd, 2024
 
 WSDM Cup-Toloka Visual Question Answering Challenge, Rank 6th, 2023
 
