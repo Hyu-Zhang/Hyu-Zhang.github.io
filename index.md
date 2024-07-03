@@ -58,20 +58,18 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
       </ul>      
       </div>    
 
-<!--
 <div align="left">
-        <strong> Kuaishou Technology, Beijing, China  (Jun 2024 - Jun 2025) </strong>
+        <strong> Kuaishou Technology, Beijing, China  (Jul 2024 - Jun 2025) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="kuaishou.png" align="right" width="70" height="70">
           </a> 
         <ul>
         <li>
-          Academic Intern</li>
+          Academic Intern, in Community Science </li>
         <li>
-          Project: Video Question Answering  </li>
+          Project: Multimodal Large Language Model </li>
       </ul>      
       </div>
--->
 
 <div align="left">
         <strong> Alibaba Group, Hangzhou, China  (Wed 2022 - Jul 2022) </strong>
@@ -82,7 +80,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
         <li>
           Academic Intern, in Alibaba Cloud Intelligence </li>
         <li>
-          Project: Partial Person Re-identification  </li>
+          Project: Partial Person Re-identification </li>
       </ul>      
       </div>
 
