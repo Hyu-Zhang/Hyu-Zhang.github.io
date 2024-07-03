@@ -61,7 +61,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 <div align="left">
         <strong> Kuaishou Technology, Beijing, China  (Jul 2024 - Jun 2025) </strong>
           <a target="_blank" rel="external">
-            <img border="0" src="kuaishou.png" align="right" width="70" height="50" style="margin-top: 10;">
+            <img border="0" src="kuaishou.png" align="right" width="70" height="50" style="margin-top:10">
           </a> 
         <ul>
         <li>
