@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). Also I am a Co-culture Student at [Peng Cheng Laboratory](https://www.pcl.ac.cn/) under the supervision of [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN). Before that, I received my M.E. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric VideoQA, Multimodal Dialog, and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). Also I am a Co-culture Student at [Pengcheng Laboratory](https://www.pcl.ac.cn/) under the supervision of [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN). Before that, I received my M.E. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric VideoQA, Multimodal Dialog, and Person Re-identification.
 
 ## Education
 
@@ -46,7 +46,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Experience
 <div align="left">
-        <strong> Peng Cheng Laboratory, Shenzhen, China  (Sep 2023 - Now) </strong>
+        <strong> Pengcheng Laboratory, Shenzhen, China  (Sep 2023 - Now) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="pc_logo.jpg" align="right" width="70" height="70">
           </a> 
