@@ -119,7 +119,7 @@ Volunteer: ICML 2024.
 <!--
 2023信创与数字经济博士后海河学术论坛，三等奖
 -->
-ICML Travel Grant, 2024
+ICML Travel Award, 2024
 
 Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023
 
@@ -129,7 +129,7 @@ National Scholarship, 2021
 
 Outstanding Graduate Student of Shandong University, 2021
 
-ACM MM Student Travel Grant, 2021
+ACM MM Student Travel Award, 2021
 
 Outstanding Graduates of Shandong Province, 2020
 
