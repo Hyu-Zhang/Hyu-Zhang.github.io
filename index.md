@@ -111,7 +111,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 Program Committee: AAAI 2025.
 
-Conference Reviewer: ACM MM 2022-2024, NeurIPS 2022-2024, ICML 2023-2024, PRCV 2023-2024, ICLR 2024, ISCAS 2024, IJCAI 2024, ECAI 2024.
+Conference Reviewer: ACM MM 2022-2024, NeurIPS 2022-2024, ICML 2023-2024, PRCV 2023-2024, ICLR 2024-2025, ISCAS 2024, IJCAI 2024, ECAI 2024.
 
 Journal Reviewer: Information Sciences, IEEE TCSVT, IEEE TMM, IEEE TKDE.
 
