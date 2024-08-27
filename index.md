@@ -86,10 +86,10 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
-**Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
+**Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**Technical Report**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15771)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex]()]
 
-Yisen Feng, **Haoyu Zhang**, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie. "_ObjectNLQ @ Ego4D Episodic Memory Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
+Yisen Feng, **Haoyu Zhang**, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie. "_ObjectNLQ @ Ego4D Episodic Memory Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**Technical Report**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15778)]  [[Code](https://github.com/Yisen-Feng/ObjectNLQ)]  [[BibTex]()]
 
 **Haoyu Zhang**, Meng Liu, Zixin Liu, Xuemeng Song, Yaowei Wang, Liqiang Nie. "_Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering_". International Conference on Machine Learning (**ICML**), CCF-A, Full Paper, 2024.<br />
@@ -109,9 +109,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 ## Professional Services
 
-Program Committee: AAAI 2025.
-
-Conference Reviewer: ACM MM 2022-2024, NeurIPS 2022-2024, ICML 2023-2024, PRCV 2023-2024, ICLR 2024-2025, ISCAS 2024, IJCAI 2024, ECAI 2024.
+Conference Reviewer: NeurIPS 2022-2024, ICML 2023-2024, ICLR 2024-2025, ACM MM 2022-2024, AAAI 2025, IJCAI 2024, PRCV 2023-2024, ISCAS 2024, ECAI 2024.
 
 Journal Reviewer: Information Sciences, IEEE TCSVT, IEEE TMM, IEEE TKDE.
 
