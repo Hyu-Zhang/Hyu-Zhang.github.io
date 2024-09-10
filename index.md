@@ -145,6 +145,8 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
+Kaggle EgoSchema Competition, Rank 1st, 2024
+
 CVPR Ego4D Challenge-EgoSchema Track, Rank 1st, 2024
 
 CVPR Ego4D Challenge-Natural Language Query Track, Rank 2nd, 2024
