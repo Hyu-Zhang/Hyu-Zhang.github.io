@@ -159,4 +159,6 @@ WSDM Cup-Toloka Visual Question Answering Challenge, Rank 6th, 2023
 ## Patents
 
 对话意图识别、用于识别对话意图的模型的训练方法, CN113590798A
+一种基于多机协同的目标视频片段定位方法及系统, 
+
 -->
