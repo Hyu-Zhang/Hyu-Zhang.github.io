@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <br>
+    <div class="logo" style="text-align: center;">
+        <a href="index.html">
+            <img src="./assets/images/optimus.jpg">
+        </a>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon ...">
+    <title>Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks</title>
+    <script>
+
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="./static/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Optimus-1: Hybrid Multimodal Memory Empowered Agents
+                            Excel in Long-Horizon Tasks</h1>
+                        <h2 style="font-weight: bold; font-size: 20px;">NeurIPS 2024</h2>
+                        <span class="author-block">
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?user=TDBF2UoAAAAJ&hl=en&oi=ao">Zaijing&#160;Li</a><sup>1
+                                2</sup>,
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?user=KO77A2oAAAAJ&hl=en">Yuquan&#160;Xie</a><sup>1
+                            </sup>,
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?user=9Vc--XsAAAAJ&hl=en&oi=ao">Rui&#160;Shao</a><sup>1&#9993</sup>,
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?user=Mpg0w3cAAAAJ&hl=en&oi=ao">Gongwei&#160;Chen</a><sup>1</sup>,
+                            <br>
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?hl=en&user=Awsue7sAAAAJ">Dongmei&#160;Jiang</a><sup>2</sup>,
+                            <a target="_blank"
+                                href="https://scholar.google.com/citations?hl=en&user=yywVMhUAAAAJ">Liqiang&#160;Nie</a><sup>1&#9993</sup>,
+                            <div class="is-size-5 publication-authors" style="font-size: 10px;">
+                                <span class="author-block"><sup>1</sup>Harbin Institute of Technology,
+                                    Shenzhen&#160&#160&#160</span>
+                                <span class="author-block"><sup>2</sup>Peng Cheng Laboratory, Shenzhen</span>
+                            </div>
+
+
+                            <div class="is-size-5 publication-authors" style="font-size: 10px;">
+                                <span class="author-block"><sup>&#9993&#160;</sup>Corresponding
+                                    author&#160;&#160;</span>
+                            </div>
+                            <div class="column has-text-centered">
+                                <div class="publication-links">
+                                    <!-- TODO PDF Link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="https://arxiv.org/abs/2408.03615"
+                                            class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="ai ai-arxiv"></i>
+                                            </span>
+                                            <span>arXiv</span>
+                                        </a>
+                                    </span>
+
+                                    <span class="link-block">
+                                        <a target="_blank" href="https://arxiv.org/pdf/2408.03615"
+                                            class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fas fa-file-pdf"></i>
+                                            </span>
+                                            <span>PDF</span>
+                                        </a>
+                                    </span>
+                                    <!-- Code Link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="https://github.com/JiuTian-VL/Optimus-1"
+                                            class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                            <span>Code</span>
+                                        </a>
+                                    </span>
+                                    <br />
+
+                                </div>
+
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column">
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AZeS3C_S_3M?si=lIUkwqr355KCegxV"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe> -->
+        </div>
+    </div>
+
+    <section class="section" style="background-color:#efeff081">
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p style="font-size: 125%">
+                            Building a general-purpose agent is a long-standing vision in the field of artificial
+                            intelligence. Existing agents have made remarkable progress in many domains, yet they still
+                            struggle to complete long-horizon tasks in an open world. We attribute this to the lack of
+                            necessary world knowledge and experience that can guide agent through a variety of
+                            long-horizon tasks. In this paper, we propose a <b>Hybrid Multimodal Memory</b> module to
+                            address above challenges. It <b>1)</b> transforms knowledge into <b>Hierarchical
+                                Directed Knowledge Graph</b> that allow agents to explicitly represent and learn world
+                            knowledge, and <b>2) </b>summarises historical information into <b>Abstracted
+                                Multimodal Experience Pool</b> that provide agents with rich references for in-context
+                            learning. On top of the Hybrid Multimodal Memory module, a multimodal multimodular agent,
+                            Optimus-1, is constructed with dedicated <b>Knowledge-guided Planner</b> and
+                            <b>Experience-Driven Reflector</b> in Minecraft, contributing to a better planning and
+                            reflection in the face of long-horizon tasks. Extensive experimental results show that
+                            Optimus-1 significantly outperforms all existing agents on challenging long-horizon tasks
+                            benchmark, and exhibits near human-level performance on many tasks. In addition, we
+                            introduce various Multimodal Large Language Models (MLLM) as the backbone of Optimus-1, and
+                            the experimental results show that Optimus-1 exhibit strong generalisation with the help of
+                            Hybrid Multimodal Memory module, outperforming the GPT-4V baseline on many tasks. The
+                            extensive experimental results show that Optimus-1 makes a major step towards a general
+                            agent with a human-like level of performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color:#ffffff">
+        <div class="container is-max-desktop is-centered">
+            <h1 style="font-size: 30px">Demos</h1>
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/wood.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Wooden Group</h2>
+            <!-- <div class="video-section"> -->
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/wooden_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft a crafting table</h1>
+                        <ol>
+                            <li>mine 1 logs</li>
+                            <li>craft 4 planks</li>
+                            <li>craft a crafting table</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/wooden_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft a wooden pickaxe</h1>
+                        <ol>
+                            <li>mine 3 logs</li>
+                            <li>craft 9 planks</li>
+                            <li>craft 2 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/wooden_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft a wooden sword</h1>
+                        <ol>
+                            <li>mine 3 logs</li>
+                            <li>craft 8 planks</li>
+                            <li>craft 1 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden sword</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- </div> -->
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/cobblestone.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Stone Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/stone_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft a torch</h1>
+                        <ol>
+                            <li>mine 3 logs</li>
+                            <li>craft 10 planks</li>
+                            <li>craft 3 stick</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and mine 1 coal</li>
+                            <li>craft 1 torch</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/stone_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft a stone pickaxe</h1>
+                        <ol>
+                            <li>mine 2 logs</li>
+                            <li>craft 6 planks</li>
+                            <li>craft 2 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>mine 1 logs</li>
+                            <li>craft 1 planks</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and mine 3 stone</li>
+                            <li>craft 1 stone pickaxe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/stone_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft a stone sword</h1>
+                        <ol>
+                            <li>mine 4 logs</li>
+                            <li>craft 15 planks</li>
+                            <li>craft 3 stick</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden_pickaxe</li>
+                            <li>dig down and mine 2 cobblestone</li>
+                            <li>craft 1 stone sword</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/iron_ingot.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Iron Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/iron_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft an iron pickaxe</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/iron_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft an iron sword</h1>
+                        <ol>
+                            <li>mine 7 logs</li>
+                            <li>craft 23 planks</li>
+                            <li>craft 6 stick</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 11 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 2 iron ore</li>
+                            <li>smelt 2 iron ore</li>
+                            <li>craft 1 iron sword</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/iron_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft rails</h1>
+                        <ol>
+                            <li>mine 7 logs</li>
+                            <li>craft 21 planks</li>
+                            <li>craft 5 stick</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and mine 11 stone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>dig down and mine 6 iron ore</li>
+                            <li>craft 1 furnace</li>
+                            <li>smelt 6 iron ore into iron ingots</li>
+                            <li>craft 1 rail</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/gold_ingot.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Golden Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/golden_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft golden axe</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig down and mine 3 gold</li>
+                            <li>smelt 3 gold</li>
+                            <li>craft 1 golden axe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/golden_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft golden sword</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig down and mine 2 gold</li>
+                            <li>smelt 2 gold</li>
+                            <li>craft 1 golden sword</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/golden_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft golden shovel</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig down and mine 1 gold</li>
+                            <li>smelt 1 gold</li>
+                            <li>craft 1 golden shovel</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/diamond.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Diamond Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/diamond_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft a diamond axe</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>explore 1 to find a good spot to dig down</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig down and mine 3 diamond</li>
+                            <li>craft 1 diamond axe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/diamond_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft a diamond pickaxe</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig down and mine 3 diamond</li>
+                            <li>craft 1 diamond pickaxe</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/diamond_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft a diamond hoe</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>dig 2 down and mine 2 diamond</li>
+                            <li>craft 1 diamond hoe</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/armor.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Armor Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/armor_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft golden boots</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>equip 1 iron pickaxe</li>
+                            <li>dig down and mine 4 gold</li>
+                            <li>smelt 4 gold</li>
+                            <li>craft 1 golden boots</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/armor_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft an iron leggings</h1>
+                        <ol>
+                            <li>mine 9 logs</li>
+                            <li>craft 36 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 chest</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>dig down and break down 5 iron ore</li>
+                            <li>smelt 5 iron ore</li>
+                            <li>craft 1 iron helmet</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/armor_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft a diamond helmet</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>explore 1 to find a good spot to dig down</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>equip 1 iron pickaxe</li>
+                            <li>dig down and mine5 diamond</li>
+                            <li>craft 1 diamond helmet</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 30px; text-align: center;"><img src="./assets/images/Redstone_Dust_JE2_BE2.png"
+                    style="vertical-align: middle; height: 1em; padding: 0 0.2em;">Redstone Group</h2>
+            <div class="video-container">
+                <div class="box">
+                    <div class="video1"><video controls>
+                            <source src="./assets/videos/redstone_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text1">
+                        <h1 style="text-align: center;">Craft piston</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>dig down and break down 4 iron ore</li>
+                            <li>smelt 4 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>equip 1 iron pickaxe</li>
+                            <li>dig down and break down 1 redstone</li>
+                            <li>craft 1 piston</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video2"><video controls>
+                            <source src="./assets/videos/redstone_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text2">
+                        <h1 style="text-align: center;">Craft redstone torch</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 8 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 12 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>craft 1 furnace</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>dig down and break down 3 iron ore</li>
+                            <li>smelt 3 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>equip 1 iron pickaxe</li>
+                            <li>dig down and break down 1 redstone</li>
+                            <li>craft 1 restone torch</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="video3"><video controls>
+                            <source src="./assets/videos/redstone_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video></div>
+
+                    <div class="text3">
+                        <h1 style="text-align: center;">Craft activator rail</h1>
+                        <ol>
+                            <li>mine 10 logs</li>
+                            <li>craft 38 planks</li>
+                            <li>craft 10 sticks</li>
+                            <li>craft 1 crafting table</li>
+                            <li>craft 1 wooden pickaxe</li>
+                            <li>equip 1 wooden pickaxe</li>
+                            <li>dig down and break down 11 cobblestone</li>
+                            <li>craft 1 stone pickaxe</li>
+                            <li>craft 1 a furnace</li>
+                            <li>equip 1 stone pickaxe</li>
+                            <li>dig down and break down 9 iron ore</li>
+                            <li>smelt 9 iron ore</li>
+                            <li>craft 1 iron pickaxe</li>
+                            <li>equip 1 iron pickaxe</li>
+                            <li>dig down and break down 1 redstone</li>
+                            <li>craft 1 restone torch</li>
+                            <li>craft 1 activator rail</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" style="background-color:#efeff081">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3">Overview framework of our Optimus-1</h2>
+                        <img src="assets/images/fig2.png" class="interpolation-image" alt=""
+                            style="display: block; margin-left: auto; margin-right: auto" width="600" height="700" />
+                        <br>
+                        <span style="font-size: 110%">
+                            We divide the structure of Optimus-1 into Knowledge-Guided Planner, Experience-Driven
+                            Reflector, and Action Controller. In a given game environment with a long-horizon task, the
+                            Knowledge-Guided Planner senses the environment, retrieves knowledge from HDKG, and
+                            decomposes the task into executable sub-goals. The action controller then sequentially
+                            executes these sub-goals. During execution, the Experience-Driven Reflector is activated
+                            periodically, leveraging historical experience from AMEP to assess whether Optimus-1 can
+                            complete the current sub-goal. If not, it instructs the Knowledge-Guided Planner to revise
+                            its plan. Through iterative interaction with the environment,Optimus-1 ultimately completes
+                            the task.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color:#ffffff">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3">Hybrid Multimodal Memory</h2>
+                        <img src="assets/images/fig3.png" class="interpolation-image" alt="" width="600" height="700"
+                            style="display: block; margin-left: auto; margin-right: auto" />
+                        <br>
+                        <span style="font-size: 110%">
+                            <span style="font-weight: bold">(a)</span> Extraction process of multimodal experience. The
+                            frames are filtered through video buffer and image buffer, then MineCLIP is employed to
+                            compute the visual and sub-goal similarities and finally they are stored in Abstracted
+                            Multimodal Experience Pool. <span style="font-weight: bold">(b)</span> Overview of
+                            Hierarchical Directed Knowledge Graph. Knowledge is stored as a directed graph, where its
+                            nodes represent objects, and directed edges point to materials that can be crafted by this
+                            object.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- result -->
+    <section class="section" style="background-color:#efeff081">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3"><span class="dvima">Experiment</span></h2>
+                        <h1><span class="dvima">Main Result of Optimus-1 on long-horizon tasks
+                                benchmark. </span></h1>
+                        <img src="assets/images/task.png" class="interpolation-image" alt="" width="500" height="250"
+                            style="display: block; margin-left: auto; margin-right: auto" />
+                        <img src="assets/images/table1.png" class="interpolation-image" alt="" width="600" height="700"
+                            style="display: block; margin-left: auto; margin-right: auto" />
+                        <br>
+                        <span style="font-size: 110%"> We
+                            report the average success rate (SR), average number of
+                            steps (AS), and average time (AT) on each task group, the results of each task can be found
+                            in the Appendix
+                            experiment. Lower AS and AT metrics mean that the agent is more efficient at
+                            completing the task, while ∞
+                            indicates that the agent is unable to complete the task. Overall represents the average
+                            result on the five groups of
+                            Iron, Gold, Diamond, Redstone,
+                            and Armor.
+                        </span>
+                        <!-- <h1><span class="dvima">Ablation study results</span></h1>
+                        <div class="image-container">
+                            <div class="image-wrapper">
+                                <img src="assets/images/table2.png" alt="" width="400" height="320"
+                                    style="margin-left: auto; margin-right: auto" /><img src="assets/images/table3.png"
+                                    alt="" width="500" height="300" style="margin-left: auto; margin-right: auto" />
+                            </div>
+                        </div>
+                        <br>
+                        <span style="font-size: 110%"> We report average success rate (SR) on
+                            each task group. P., R., K.,E. represent Planning, Reflection, Knowledge, and Experience,
+                            respectively. Zero, Suc., and
+                            Fail. represent retrieving from AMEP without getting the case, getting the success case, and
+                            getting the
+                            failure case, respectively.
+                        </span> -->
+
+
+
+                        <h1><span class="dvima">Generalisation and Self-Evoluation</span></h1>
+                        <div class="image-container">
+                            <div class="image-wrapper">
+                                <img src="assets/images/fig5-1-1.png" alt="" width="500" height="300"
+                                    style="margin-left: auto; margin-right: auto" />
+                                <img src="assets/images/fig5-2-1.png" alt="" width="500" height="300"
+                                    style="margin-left: auto; margin-right: auto" />
+
+                            </div>
+                        </div>
+
+                        <br>
+                        <span style="font-size: 110%">(a) With the help of Hybrid Multimodal Memory, various
+                            MLLM-based
+                            Optimus-1 have demonstrated 2 to 6 times performance
+                            improvement.
+                        </span>
+                        <span style="font-size: 110%">
+                            (b) Illustration of the change in Optimus-1 success rate on the unseen
+                            task over 4 epochs.</span>
+                        <!-- 
+                        <h1><span class="dvima">Compared with other methods</span></h1>
+                        <img src="assets/images/compare.png" alt="" width="500" height="300" class="interpolation-image"
+                            style="display: block; margin-left: auto; margin-right: auto" />
+                        <span style="font-size: 110%"></span>We introduce Hybrid Multimodal
+                        Memory, which empowers Optimus-1 with hierarchical knowledge and multimodal experience. This
+                        makes Optimus-1 significantly outperform all existing agents on challenging long-horizon tasks
+                        benchmark, and exhibits near human-level performance on many tasks.</span> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Conclusion-->
+    <section class="section" style="background-color:#ffffff">
+        <div class="container is-max-widescreen">
+            <div class="rows">
+                <div class="rows is-centered ">
+                    <div class="row is-full-width">
+                        <h2 class="title is-3"><span class="dvima">Conclusion</span></h2>
+
+                        <p style="font-size: 125%">
+                            In this paper, we propose Hybrid Multimodal Memory module, which is inspired by the major
+                            influence of the human long-term memory system on the completion of long-horizon tasks.
+                            Hybrid Multimodal Memory module consists of two parts: HDKG and AMEP. HDKG provides the
+                            necessary world knowledge for the planning phase of the agent, and AMEP provides the refined
+                            historical experience for the reflection phase of the agent. On top of the Hybrid Multimodal
+                            Memory, we construct the multimodal and multimodular agent Optimus-1 in Minecraft. Extensive
+                            experimental results show that Optimus-1 outperforms all existing agents on long-horizon
+                            tasks. Furthermore, we validate that general-purpose MLLM, based on our proposed Hybrid
+                            Multimodal Memory and without additional parameter updates, can exceed the powerful GPT-4V
+                            baseline. This self-evolution approach provides novel insights and directions for the study
+                            of general-purpose agents.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
