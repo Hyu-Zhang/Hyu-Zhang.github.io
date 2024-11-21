@@ -109,7 +109,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 ## Professional Services
 
-Conference Reviewer: NeurIPS 2022-2024, ICML 2023-2024, ICLR 2024-2025, ACM MM 2022-2024, AAAI 2025, IJCAI 2024, PRCV 2023-2024, ISCAS 2024, ECAI 2024.
+Conference Reviewer: CVPR 2025, NeurIPS 2022-2024, ICML 2023-2024, ICLR 2024-2025, ACM MM 2022-2024, AAAI 2025, IJCAI 2024, PRCV 2023-2024, ISCAS 2024, ECAI 2024.
 
 Journal Reviewer: Information Sciences, IEEE TCSVT, IEEE TMM, IEEE TKDE.
 
