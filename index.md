@@ -10,10 +10,10 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 Yisen Feng, **Haoyu Zhang**, Meng Liu, Weili Guan, Liqiang Nie. "_Object-Shot Enhanced Grounding Network for Egocentric Video_". IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), CCF-A, Full Paper, 2025.<br />
 [[Paper]()]  [[Code]()]  [[BibTex]()]
 
-**Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**Technical Report**), 2024.<br />
+**Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15771)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:DVLb4UaoRtwJ:scholar.google.com/&output=citation&scisdr=ClFkPic6EJ6k0-IzWaI:AFWwaeYAAAAAZ1g1QaLM1yWxTsrx5PdDzmOo9EY&scisig=AFWwaeYAAAAAZ1g1QcXoV_c1Wy0NeTamgnMGwvQ&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Yisen Feng, **Haoyu Zhang**, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie. "_ObjectNLQ @ Ego4D Episodic Memory Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**Technical Report**), 2024.<br />
+Yisen Feng, **Haoyu Zhang**, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie. "_ObjectNLQ @ Ego4D Episodic Memory Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15778)]  [[Code](https://github.com/Yisen-Feng/ObjectNLQ)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:t7G6qvse5q0J:scholar.google.com/&output=citation&scisdr=ClFkPic6EJ6k0-IzQF4:AFWwaeYAAAAAZ1g1WF4ocNq1LkM4-MSBbN_sNyE&scisig=AFWwaeYAAAAAZ1g1WMBytQwYTtmdNN176XuDF5Q&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 **Haoyu Zhang**, Meng Liu, Zixin Liu, Xuemeng Song, Yaowei Wang, Liqiang Nie. "_Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering_". International Conference on Machine Learning (**ICML**), CCF-A, Full Paper, 2024.<br />
