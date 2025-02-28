@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+Yisen Feng, **Haoyu Zhang**, Meng Liu, Weili Guan, Liqiang Nie. "_Object-Shot Enhanced Grounding Network for Egocentric Video_". IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), CCF-A, Full Paper, 2025.<br />
+[[Paper]()]  [[Code]()]  [[BibTex]()]
+
 **Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**Technical Report**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15771)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:DVLb4UaoRtwJ:scholar.google.com/&output=citation&scisdr=ClFkPic6EJ6k0-IzWaI:AFWwaeYAAAAAZ1g1QaLM1yWxTsrx5PdDzmOo9EY&scisig=AFWwaeYAAAAAZ1g1QcXoV_c1Wy0NeTamgnMGwvQ&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
