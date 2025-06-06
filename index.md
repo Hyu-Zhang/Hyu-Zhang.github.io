@@ -3,20 +3,20 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/) and [Prof. Meng Liu](https://mengliu1991.github.io/). Also I am a Co-culture Student at [Pengcheng Laboratory](https://www.pcl.ac.cn/) under the supervision of [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN). Before that, I received my M.E. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric Vision Understanding, Multimodal Dialog, and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/), [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN), and [Prof. Meng Liu](https://mengliu1991.github.io/). Before that, I received my M.S. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric Vision Understanding, Multimodal Dialog, and Person Re-identification.
 
 ## Publications
 
 **Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". arXiv preprint, arXiv:2506.03642, 2025.<br />
 [[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
 
-Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". arXiv preprint, arXiv:2506.03710, 2025.<br />
-[[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Code]()]  [[BibTex]()]
+Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
+[[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Code](https://github.com/Yisen-Feng/OSGNet)]  [[BibTex]()]
 
-Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025_". arXiv preprint, arXiv:2506.02550, 2025.<br />
-[[Paper](https://arxiv.org/abs/2506.02550)]  [[Code]()]  [[BibTex]()]
+Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
+[[Paper](https://arxiv.org/abs/2506.02550)]  [[Code](https://github.com/CorrineQiu/Ego4D-LTA-Challenge-2025)]  [[BibTex]()]
 
-**Haoyu Zhang**, Yisen Feng, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_HCQA-1.5 @ Ego4D EgoSchema Challenge 2025_". arXiv preprint, arXiv:2505.20644, 2025.<br />
+**Haoyu Zhang**, Yisen Feng, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_HCQA-1.5 @ Ego4D EgoSchema Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
 [[Paper](https://arxiv.org/abs/2505.20644)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex]()]
 
 **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Yunxiao Wang, Bin Wen, Fan Yang, Tingting Gao, Di Zhang, Yaowei Wang, Liqiang Nie. "_Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding_". arXiv preprint, arXiv:2503.09143, 2025.<br />
@@ -130,7 +130,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
       </ul>      
       </div>
 
-## Professional Services
+## Academic Services
 
 Conference Reviewer: CVPR 2025, ICCV 2025, NeurIPS 2022-2025, ICML 2023-2025, ICLR 2024-2025, SIGIR 2025, ACM MM 2022-2024, AAAI 2025, IJCAI 2024, ICMR 2025, PRCV 2023-2024, ISCAS 2024, ECAI 2024.
 
@@ -140,25 +140,25 @@ Volunteer: ICML 2024.
 
 ## Awards
 <!--
-2023信创与数字经济博士后海河学术论坛，三等奖
+2023信创与数字经济博士后海河学术论坛，二等奖，三等奖
 -->
 INSUN Education Scholarship, 2024
 
 ICML Travel Award, 2024
 
-Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023
+Second and Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023
 
 Outstanding Graduates of Shandong University, 2023
 
 National Scholarship, 2021
-
-Outstanding Graduate Student of Shandong University, 2021
+<!--
+Outstanding Graduate Student of Shandong University, 2021 -->
 
 ACM MM Student Travel Award, 2021
 
 Outstanding Graduates of Shandong Province, 2020
-
-Outstanding Graduates from Shandong University of Science and Technology, 2020
+<!--
+Outstanding Graduates from Shandong University of Science and Technology, 2020 -->
 
 Top 10 Outstanding Students in the School of Computer Science and Engineering, 2019
 
@@ -172,6 +172,16 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
+CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, Champion, 2025
+
+CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, Champion, 2025
+
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, Champion, 2025
+
+CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, Champion, 2025
+
+CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, Third Place, 2025
+
 Kaggle EgoSchema Competition, Champion, 2024
 
 CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, Champion, 2024
@@ -180,9 +190,9 @@ CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, Runner-up, 2
 
 CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, Third Place, 2024
 
+<!--
 WSDM Cup-Toloka Visual Question Answering Challenge, Sixth Place, 2023
 
-<!--
 ## Patents
 
 对话意图识别、用于识别对话意图的模型的训练方法, CN113590798A
