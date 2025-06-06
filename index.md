@@ -7,6 +7,18 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+**Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". arXiv preprint, arXiv:2506.03642, 2025.<br />
+[[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
+
+Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". arXiv preprint, arXiv:2506.03710, 2025.<br />
+[[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Code]()]  [[BibTex]()]
+
+Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025_". arXiv preprint, arXiv:2506.02550, 2025.<br />
+[[Paper](https://arxiv.org/abs/2506.02550)]  [[Code]()]  [[BibTex]()]
+
+**Haoyu Zhang**, Yisen Feng, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_HCQA-1.5 @ Ego4D EgoSchema Challenge 2025_". arXiv preprint, arXiv:2505.20644, 2025.<br />
+[[Paper](https://arxiv.org/abs/2505.20644)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex]()]
+
 **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Yunxiao Wang, Bin Wen, Fan Yang, Tingting Gao, Di Zhang, Yaowei Wang, Liqiang Nie. "_Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding_". arXiv preprint, arXiv:2503.09143, 2025.<br />
 [[Paper](https://arxiv.org/abs/2503.09143)] [[Code](https://egovisiongroup.github.io/Exo2Ego.github.io/)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:NhdayunzVSAJ:scholar.google.com/&output=citation&scisdr=ClGW_-20EJ6k02B0Vv8:AFWwaeYAAAAAZ9pyTv9bTYefuEddApBySyMompA&scisig=AFWwaeYAAAAAZ9pyTjKNRVWRKJ620WLT0WMyW8g&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
@@ -78,6 +90,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
       </div>
 
 ## Experience
+<!--
 <div align="left">
         <strong> Pengcheng Laboratory, Shenzhen, China  (Sep 2023 - Now) </strong>
           <a target="_blank" rel="external">
@@ -89,7 +102,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
         <li>
           Advisor: Prof. Yaowei Wang  </li>
       </ul>      
-      </div>    
+      </div>   --> 
 
 <div align="left">
         <strong> Kuaishou Technology, Beijing, China  (Jul 2024 - Jun 2025) </strong>
