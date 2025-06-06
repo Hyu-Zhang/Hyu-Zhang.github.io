@@ -172,19 +172,19 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
-CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, Champion, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, **Champion**, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, Champion, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, **Champion**, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, Champion, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, **Champion**, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, Champion, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, **Champion**, 2025
 
 CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, Third Place, 2025
 
-Kaggle EgoSchema Competition, Champion, 2024
+Kaggle EgoSchema Competition, **Champion**, 2024
 
-CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, Champion, 2024
+CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, **Champion**, 2024
 
 CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, Runner-up, 2024
 
