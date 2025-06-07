@@ -10,7 +10,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 **Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". arXiv preprint, arXiv:2506.03642, 2025.<br />
 [[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
 
-Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
+Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), Oral, 2025.<br />
 [[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Code](https://github.com/Yisen-Feng/OSGNet)]  [[BibTex]()]
 
 Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
