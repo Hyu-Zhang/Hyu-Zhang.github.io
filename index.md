@@ -186,7 +186,7 @@ Kaggle EgoSchema Competition, :1st_place_medal:, 2024
 
 CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, :1st_place_medal:, 2024
 
-CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, 🥈_place_medal:, 2024
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, :2nd_place_medal:, 2024
 
 CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, :3rd_place_medal:, 2024
 
