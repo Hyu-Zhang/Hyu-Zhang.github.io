@@ -11,7 +11,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 [[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
 
 Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), Oral, 2025.<br />
-[[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Code](https://github.com/Yisen-Feng/OSGNet)]  [[BibTex]()]
+[[Paper](https://www.arxiv.org/abs/2506.03710)]  [[Video](https://www.youtube.com/watch?v=AIO9LZMbbuA)]  [[Code](https://github.com/Yisen-Feng/OSGNet)]  [[BibTex]()]
 
 Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2025.<br />
 [[Paper](https://arxiv.org/abs/2506.02550)]  [[Code](https://github.com/CorrineQiu/Ego4D-LTA-Challenge-2025)]  [[BibTex]()]
@@ -26,7 +26,7 @@ Yunxiao Wang, Meng Liu, Rui Shao, **Haoyu Zhang**, Bin Wen, Fan Yang, Tingting G
 [[Paper](https://arxiv.org/abs/2503.09994)] [[Code]()]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:9BUrxj0IIIUJ:scholar.google.com/&output=citation&scisdr=ClGW_-20EJ6k02B0v90:AFWwaeYAAAAAZ9pyp92L8aAfsoPiV2ZL0bnpf_c&scisig=AFWwaeYAAAAAZ9pyp7WWS3gcl5Z_bDAVY6m8xHo&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 Yisen Feng, **Haoyu Zhang**, Meng Liu, Weili Guan, Liqiang Nie. "_Object-Shot Enhanced Grounding Network for Egocentric Video_". IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), CCF-A, Full Paper, 2025.<br />
-[[Paper]()]  [[Code]()]  [[BibTex]()]
+[[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Object-Shot_Enhanced_Grounding_Network_for_Egocentric_Video_CVPR_2025_paper.html)]  [[Code](https://github.com/Yisen-Feng/OSGNet)]  [[BibTex](https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Object-Shot_Enhanced_Grounding_Network_for_Egocentric_Video_CVPR_2025_paper.html)]
 
 **Haoyu Zhang**, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie. "_HCQA @ Ego4D EgoSchema Challenge 2024_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2024.<br />
 [[Paper](https://arxiv.org/abs/2406.15771)]  [[Code](https://github.com/Hyu-Zhang/HCQA)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:DVLb4UaoRtwJ:scholar.google.com/&output=citation&scisdr=ClFkPic6EJ6k0-IzWaI:AFWwaeYAAAAAZ1g1QaLM1yWxTsrx5PdDzmOo9EY&scisig=AFWwaeYAAAAAZ1g1QcXoV_c1Wy0NeTamgnMGwvQ&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
@@ -172,7 +172,7 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
-CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, **Champion**, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, :1st_place_medal:, 2025
 
 CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, **Champion**, 2025
 
