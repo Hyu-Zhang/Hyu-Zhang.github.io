@@ -174,21 +174,21 @@ First Class Academic Scholarship, 2016-2020
 
 CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, :1st_place_medal:, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, **Champion**, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Moment Queries Track, :1st_place_medal:, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, **Champion**, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, :1st_place_medal:, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, **Champion**, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, :1st_place_medal:, 2025
 
-CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, Third Place, 2025
+CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, :3rd_place_medal:, 2025
 
-Kaggle EgoSchema Competition, **Champion**, 2024
+Kaggle EgoSchema Competition, :1st_place_medal:, 2024
 
-CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, **Champion**, 2024
+CVPR EgoVis Workshop, Ego4D Challenge-EgoSchema Track, :1st_place_medal:, 2024
 
-CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, Runner-up, 2024
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, 🥈_place_medal:, 2024
 
-CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, Third Place, 2024
+CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, :3rd_place_medal:, 2024
 
 <!--
 WSDM Cup-Toloka Visual Question Answering Challenge, Sixth Place, 2023
