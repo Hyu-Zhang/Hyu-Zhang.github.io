@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+Qiaohui Chu, **Haoyu Zhang**, Meng Liu, Yisen Feng, Haoxiang Shi, Liqiang Nie. "_Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation_". arXiv preprint, arXiv:2508.01742, 2025.<br />
+[[Paper](https://arxiv.org/pdf/2508.01742)]  [[Code]()]  [[BibTex]()]
+
 **Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". arXiv preprint, arXiv:2506.03642, 2025.<br />
 [[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
 
