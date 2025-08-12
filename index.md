@@ -108,7 +108,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
       </div>   --> 
 
 <div align="left">
-        <strong> Kuaishou Technology, Beijing, China  (Jul 2024 - Jun 2025) </strong>
+        <strong> Kuaishou Technology, Beijing, China  (Jul 2024 - Jul 2025) </strong>
           <a target="_blank" rel="external">
             <img border="0" src="kuaishou_square.png" align="right" width="70" height="70">
           </a> 
