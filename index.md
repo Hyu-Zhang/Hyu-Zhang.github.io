@@ -10,7 +10,7 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 Qiaohui Chu, **Haoyu Zhang**, Meng Liu, Yisen Feng, Haoxiang Shi, Liqiang Nie. "_Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation_". arXiv preprint, arXiv:2508.01742, 2025.<br />
 [[Paper](https://arxiv.org/pdf/2508.01742)]  [[Code]()]  [[BibTex]()]
 
-**Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". arXiv preprint, arXiv:2506.03642, 2025.<br />
+**Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". Annual Conference on Neural Information Processing Systems (**NeurIPS**), **Spotlight**, 2025.<br />
 [[Paper](https://www.arxiv.org/abs/2506.03642)]  [[Code](https://github.com/Hyu-Zhang/SpatialMind)]  [[BibTex]()]
 
 Yisen Feng, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_OSGNet @ Ego4D Episodic Memory Challenge 2025_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), Oral, 2025.<br />
