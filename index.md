@@ -145,6 +145,8 @@ Volunteer: ICML 2024.
 <!--
 2023信创与数字经济博士后海河学术论坛，二等奖，三等奖
 -->
+NeurIPS Scholar Award, 2025
+
 INSUN Education Scholarship, 2024
 
 ICML Travel Award, 2024
