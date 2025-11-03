@@ -145,6 +145,9 @@ Volunteer: ICML 2024.
 <!--
 2023信创与数字经济博士后海河学术论坛，二等奖，三等奖
 -->
+
+Heilongjiang Provincial Model Student, 2025
+
 Tat-Seng Chua Scholarship, 2025
 
 NeurIPS Scholar Award, 2025
