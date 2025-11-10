@@ -7,10 +7,10 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
-**Haoyu Zhang**, Qiaohui Chu, Meng Liu, Haoxiang Shi, Yaowei Wang, Liqiang Nie. "_Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding_". Annual AAAI Conference on Artificial Intelligence (**AAAI**), CCF-A, Full Paper, 2025<br />
+**Haoyu Zhang**, Qiaohui Chu, Meng Liu, Haoxiang Shi, Yaowei Wang, Liqiang Nie. "_Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding_". Annual AAAI Conference on Artificial Intelligence (**AAAI**), CCF-A, Full Paper, 2025.<br />
 [[Paper](https://arxiv.org/abs/2503.09143)] [[Code](https://egovisiongroup.github.io/Exo2Ego.github.io/)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:NhdayunzVSAJ:scholar.google.com/&output=citation&scisdr=ClGW_-20EJ6k02B0Vv8:AFWwaeYAAAAAZ9pyTv9bTYefuEddApBySyMompA&scisig=AFWwaeYAAAAAZ9pyTjKNRVWRKJ620WLT0WMyW8g&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
-Qiaohui Chu, **Haoyu Zhang**, Meng Liu, Yisen Feng, Haoxiang Shi, Liqiang Nie. "_Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation_". Annual AAAI Conference on Artificial Intelligence (**AAAI**), CCF-A, Full Paper, 2025<br />
+Qiaohui Chu, **Haoyu Zhang**, Meng Liu, Yisen Feng, Haoxiang Shi, Liqiang Nie. "_Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation_". Annual AAAI Conference on Artificial Intelligence (**AAAI**), CCF-A, Full Paper, 2025.<br />
 [[Paper](https://arxiv.org/pdf/2508.01742)]  [[Code]()]  [[BibTex]()]
 
 **Haoyu Zhang**, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie. "_Spatial Understanding from Videos: Structured Prompts Meet Simulation Data_". Annual Conference on Neural Information Processing Systems (**NeurIPS**), CCF-A, **Spotlight** (3%), 2025.<br />
