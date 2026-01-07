@@ -3,7 +3,7 @@ layout: default
 ---
 ## About Me
 
-I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/), [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN), and [Prof. Meng Liu](https://mengliu1991.github.io/). Before that, I received my M.S. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric Vision Understanding, Multimodal Dialog, and Person Re-identification.
+I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of Computer Science and Technology, [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/), advised by [Prof. Liqiang Nie](https://liqiangnie.github.io/), [Prof. Yaowei Wang](https://scholar.google.com/citations?user=o_DllmIAAAAJ&hl=zh-CN), and [Prof. Meng Liu](https://mengliu1991.github.io/). Before that, I received my M.S. degree in the School of Computer Science and Technology from [Shandong University](https://www.sdu.edu.cn/), advised by Prof. Liqiang Nie and Prof. Meng Liu. My research interests include Egocentric Vision and Spatial Understanding.
 
 ## Publications
 
