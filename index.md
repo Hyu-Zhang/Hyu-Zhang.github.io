@@ -137,7 +137,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
 
 Conference Reviewer: CVPR 2025, ICCV 2025, NeurIPS 2022-2025, ICML 2023-2025, ICLR 2024-2025, SIGIR 2025, ACM MM 2022-2024, AAAI 2025-2026, IJCAI 2024, ICMR 2025, PRCV 2023-2024, ISCAS 2024, ECAI 2024.
 
-Journal Reviewer: IEEE TIP, IEEE TCSVT, IEEE TMM, IEEE TKDE, Information Sciences.
+Journal Reviewer: IEEE TPAMI, IEEE TIP, IEEE TCSVT, IEEE TMM, IEEE TKDE, Information Sciences.
 
 Volunteer: ICML 2024.
 
