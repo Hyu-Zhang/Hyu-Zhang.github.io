@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+Qianlong Xiang, Miao Zhang, **Haoyu Zhang**, Kun Wang, Junhui Hou, Liqiang Nie. "_TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models_". IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), CCF-A, Full Paper, 2026.<br />
+[[Paper]()]  [[Code]()]  [[BibTex]()]
+
 **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Haoxiang Shi, Yaowei Wang, Liqiang Nie. "_Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding_". Annual AAAI Conference on Artificial Intelligence (**AAAI**), CCF-A, Full Paper, 2026.<br />
 [[Paper](https://arxiv.org/abs/2503.09143)] [[Code](https://egovisiongroup.github.io/Exo2Ego.github.io/)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:NhdayunzVSAJ:scholar.google.com/&output=citation&scisdr=ClGW_-20EJ6k02B0Vv8:AFWwaeYAAAAAZ9pyTv9bTYefuEddApBySyMompA&scisig=AFWwaeYAAAAAZ9pyTjKNRVWRKJ620WLT0WMyW8g&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
