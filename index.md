@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+**Haoyu Zhang**, Meng Liu, Yisen Feng, Yaowei Wang, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Search and Reasoning for Video-grounded Dialog_". ACM Transactions on Information Systems (**ACM TOIS**), CCF-A, SCI-1, IF 9.1, 2026.<br />
+[[Paper](https://arxiv.org/abs/2310.07259)] [[Code](https://github.com/iLearn-Lab/TOIS26-ISR)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:bxW7q-aNp24J:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_wBNU:AFWwaeYAAAAAZWf2HNVOdiXLSNdEp7u1hjo5B6U&scisig=AFWwaeYAAAAAZWf2HNQEqziRSd_eQR1eOQIO6VU&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
+
 Qianlong Xiang, Miao Zhang, **Haoyu Zhang**, Kun Wang, Junhui Hou, Liqiang Nie. "_TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models_". IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), CCF-A, Full Paper, 2026.<br />
 [[Paper]()]  [[Code]()]  [[BibTex]()]
 
@@ -39,9 +42,6 @@ Yisen Feng, **Haoyu Zhang**, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie. "_Ob
 
 **Haoyu Zhang**, Meng Liu, Zixin Liu, Xuemeng Song, Yaowei Wang, Liqiang Nie. "_Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering_". International Conference on Machine Learning (**ICML**), CCF-A, Full Paper, 2024.<br />
 [[Paper](https://proceedings.mlr.press/v235/zhang24aj.html)]  [[Code](https://github.com/Hyu-Zhang/EgoVideoQA)]  [[BibTex](https://proceedings.mlr.press/v235/zhang24aj.html)]
-
-**Haoyu Zhang**, Meng Liu, Yisen Feng, Yaowei Wang, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Search and Reasoning for Video-grounded Dialog_". arXiv preprint, arXiv:2310.07259, 2023.<br />
-[[Paper](https://arxiv.org/abs/2310.07259)] [[Code](https://github.com/Hyu-Zhang/ITR)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:bxW7q-aNp24J:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_wBNU:AFWwaeYAAAAAZWf2HNVOdiXLSNdEp7u1hjo5B6U&scisig=AFWwaeYAAAAAZWf2HNQEqziRSd_eQR1eOQIO6VU&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 **Haoyu Zhang**, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie. "_Attribute-guided Collaborative Learning for Partial Person Re-identification_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, IF 24.3, 2023.<br />
 [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10239469)] [[Code]()] [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:Vfu3wDDAACkJ:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_-KZI:AFWwaeYAAAAAZWf4MZIFgrNcM8Z74mJwA53qcD8&scisig=AFWwaeYAAAAAZWf4MX-G90kn0fb34uxasZA07VA&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
