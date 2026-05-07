@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+Weili Guan, **Haoyu Zhang**, Meng Liu, Qianlong Xiang, Yaowei Wang, Liqiang Nie. "_SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, IF 24.3, 2026.<br />
+[[Paper]()] [[Code]()] [[BibTex]()]
+
 **Haoyu Zhang**, Meng Liu, Yisen Feng, Yaowei Wang, Weili Guan, Liqiang Nie. "_Uncovering Hidden Connections: Iterative Search and Reasoning for Video-grounded Dialog_". ACM Transactions on Information Systems (**ACM TOIS**), CCF-A, SCI-1, IF 9.1, 2026.<br />
 [[Paper](https://arxiv.org/abs/2310.07259)] [[Code](https://github.com/iLearn-Lab/TOIS26-ISR)]  [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:bxW7q-aNp24J:scholar.google.com/&output=citation&scisdr=ClFsnzCgEL_Wwc_wBNU:AFWwaeYAAAAAZWf2HNVOdiXLSNdEp7u1hjo5B6U&scisig=AFWwaeYAAAAAZWf2HNQEqziRSd_eQR1eOQIO6VU&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
