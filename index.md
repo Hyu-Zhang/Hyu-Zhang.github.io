@@ -7,6 +7,18 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+**Haoyu Zhang**, Qiaohui Chu, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_MARS: Technical Report for the CASTLE Challenge at EgoVis 2026_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2026.<br />
+[[Paper](https://arxiv.org/pdf/2605.18176)]  [[Code](https://github.com/Hyu-Zhang/MARS)]  [[BibTex]()]
+
+Yisen Feng, Leigang Qu, **Haoyu Zhang**, Qiaohui Chu, Meng Liu, Xuemeng Song, Weili Guan, Liqiang Nie. "_OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2026.<br />
+[[Paper](https://arxiv.org/pdf/2605.20818)]  [[Code](https://github.com/iLearn-Lab/CVPR25-OSGNet)]  [[BibTex]()]
+
+Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Dongmei Jiang, Liqiang Nie. "_VISTA: Technical Report for the Ego4D Short-Term Object Interaction Anticipation at EgoVis 2026_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2026.<br />
+[[Paper](https://arxiv.org/pdf/2605.20901)]  [[Code](https://github.com/CorrineQiu/VISTA)]  [[BibTex]()]
+
+Qiaohui Chu, **Haoyu Zhang**, Yisen Feng, Meng Liu, Weili Guan, Dongmei Jiang, Liqiang Nie. "_JFAA: Technical Report for the EPIC-KITCHENS-100 Action Anticipation Challenge at EgoVis 2026_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2026.<br />
+[[Paper](https://arxiv.org/pdf/2605.20904)]  [[Code](https://github.com/CorrineQiu/JFAA)]  [[BibTex]()]
+
 Weili Guan, **Haoyu Zhang**, Meng Liu, Qianlong Xiang, Yaowei Wang, Liqiang Nie. "_SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video_". IEEE Transactions on Pattern Analysis and Machine Intelligence (**IEEE TPAMI**), CCF-A, SCI-1, IF 24.3, 2026.<br />
 [[Paper]()] [[Code]()] [[BibTex]()]
 
@@ -185,6 +197,17 @@ First Class Academic Scholarship, 2016-2020
 -->
 
 ## Competitions
+
+
+CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, 🥇, 2026
+
+CVPR EgoVis Workshop, Ego4D Challenge-Goal Step Track, 🥇, 2026
+
+CVPR EgoVis Workshop, Ego4D Challenge-Short-Term Object Interaction Anticipation Track, 🥇, 2026
+
+CVPR EgoVis Workshop, EPIC-Kitchens Challenge-Action Anticipation Track, 🥇, 2026
+
+CVPR EgoVis Workshop, CASTLE Challenge-VQA Track, 🥈, 2026
 
 CVPR EgoVis Workshop, Ego4D Challenge-Long-Term Action Anticipation Track, 🥇, 2025
 
