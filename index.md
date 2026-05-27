@@ -94,7 +94,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
       </ul>      
       </div>
       
-<div align="left">
+<!-- <div align="left">
         <strong> Shandong University of Science and Technology, Qingdao, China</strong>
           <a target="_blank" rel="external">
             <img border="0" src="sdust_logo.jpg" align="right" width="70" height="70">
@@ -105,7 +105,7 @@ Weili Guan, Xuemeng Song, **Haoyu Zhang**, Meng Liu, Chung-Hsing Yeh, Xiaojun Ch
         <li>
           Bachelor, Graduated with Excellent Thesis Award</li>
       </ul>      
-      </div>
+      </div> -->
 
 ## Experience
 <!--
