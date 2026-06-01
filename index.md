@@ -198,6 +198,7 @@ First Class Academic Scholarship, 2016-2020
 
 ## Competitions
 
+CVPR Computer Vision in the Wild Workshop, MindCube Challenge, 🥉, 2026
 
 CVPR EgoVis Workshop, Ego4D Challenge-Natural Language Query Track, 🥇, 2026
 
