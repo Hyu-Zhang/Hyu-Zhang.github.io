@@ -7,6 +7,9 @@ I’m Haoyu Zhang (张昊宇), and I am currently a PhD Student at the School of
 
 ## Publications
 
+**Haoyu Zhang**, Meng Liu, Qianlong Xiang, Kun Wang, Yaowei Wang, Liqiang Nie. "_SpatialUAV: Benchmarking Spatial Intelligence for Low-Altitude UAV Perception, Collaboration, and Motion_". arXiv 2606.27876, 2026.<br />
+[[Paper](http://arxiv.org/abs/2606.27876)]  [[Code](https://github.com/Hyu-Zhang/SpatialUAV)]  [[BibTex]()]
+
 **Haoyu Zhang**, Qiaohui Chu, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie. "_MARS: Technical Report for the CASTLE Challenge at EgoVis 2026_". IEEE/CVF Conference on Computer Vision and Pattern Recognition EgoVis Workshop (**CVPR Workshop**), 2026.<br />
 [[Paper](https://arxiv.org/pdf/2605.18176)]  [[Code](https://github.com/Hyu-Zhang/MARS)]  [[BibTex]()]
 
