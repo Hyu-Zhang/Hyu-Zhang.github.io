@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description | default: site.title }}">
+    <title>{{ page.title | default: site.title }}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="page-header header--fixed">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main" aria-label="Primary navigation">
+        <div class="container-xl nav-container">
+          <a class="navbar-brand" href="#about">{{ site.title }}</a>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#about"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#news"><span>Recent News</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#publications"><span>Publications</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#awards"><span>Awards</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#competitions"><span>Competitions</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience"><span>Experience</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#service"><span>Academic Service</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    </div>
+
+    <main class="page-body">
+      {{ content }}
+    </main>
+
+    <footer class="page-footer">
+      <div class="container-xl">
+        <p>Copyright &copy; {{ 'now' | date: '%Y' }} Haoyu Zhang</p>
+      </div>
+    </footer>
+  </body>
+</html>
