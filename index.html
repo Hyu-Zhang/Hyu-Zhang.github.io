@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><span class="js-widget-page d-none"></span></p>
+<div class="site-layout container-xl">
+  <div class="row">
+    <div class="col-12 col-lg-3 site-profile sticky-column">
+      <div id="profile" class="profile-card">
+        <img class="avatar avatar-circle" src="haoyu_zhang.jpg" alt="Haoyu Zhang">
+        <h1 class="h2">Haoyu Zhang</h1>
+        <p class="profile-role">PhD Student<br>Harbin Institute of Technology (Shenzhen)</p>
+<pre><code>    &lt;div class=&quot;profile-summary&quot;&gt;
+      &lt;p class=&quot;profile-primary&quot;&gt;
+        &lt;a href=&quot;https://www.hitsz.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;School of Computer Science and Technology&lt;/a&gt;
+      &lt;/p&gt;
+      &lt;!-- &lt;p class=&quot;profile-affiliation&quot;&gt;Egocentric Vision and Spatial Understanding&lt;/p&gt; --&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;profile-contact&quot;&gt;
+      &lt;p class=&quot;profile-contact-text&quot;&gt;zhang.hy.2019 &lt;span&gt;AT gmail.com&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;ul class=&quot;network-icon&quot; aria-hidden=&quot;true&quot;&gt;
+      &lt;li&gt;&lt;a href=&quot;mailto:zhang.hy.2019@gmail.com&quot;&gt;&lt;i class=&quot;fas fa-envelope big-icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://scholar.google.com/citations?hl=zh-CN&amp;user=HGPmq2YAAAAJ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;fas fa-graduation-cap big-icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Hyu-Zhang&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;fab fa-github big-icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;assets/Academic_CV.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;i class=&quot;far fa-file-lines big-icon&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-12 col-lg-9 site-content&quot;&gt;
+  &lt;section id=&quot;about&quot; class=&quot;home-section wg-aboutme&quot; style=&quot;padding: 0 0 0 0;&quot;&gt;
+    &lt;div class=&quot;home-section-bg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 about-main&quot;&gt;
+          &lt;p&gt;I am &lt;strong&gt;Haoyu Zhang&lt;/strong&gt; (张昊宇), a Ph.D. candidate at the School of Computer Science and Technology, &lt;a href=&quot;https://www.hitsz.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Harbin Institute of Technology (Shenzhen)&lt;/a&gt;, under the supervision of &lt;a href=&quot;https://liqiangnie.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Prof. Liqiang Nie&lt;/a&gt;, &lt;a href=&quot;https://scholar.google.com/citations?user=o_DllmIAAAAJ&amp;hl=zh-CN&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Prof. Yaowei Wang&lt;/a&gt;, and &lt;a href=&quot;https://mengliu1991.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Prof. Meng Liu&lt;/a&gt;. Prior to this, I received my M.S. degree from the School of Computer Science and Technology at &lt;a href=&quot;https://www.sdu.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Shandong University&lt;/a&gt;, where I was advised by Prof. Liqiang Nie and Prof. Meng Liu.&lt;/p&gt;
+
+          &lt;p&gt;My research interests include multimodal retrieval, egocentric vision, and spatial intelligence. To date, I have published more than 10 papers in leading CCF-A conferences and journals, including IEEE TPAMI, ACM TOIS, CVPR, ICML, NeurIPS, AAAI, and ACM MM. I have also achieved strong results in international CVPR challenges, securing 9 first-place finishes, 2 second-place finishes, and 3 third-place finishes.&lt;/p&gt;
+
+          &lt;div class=&quot;research-block&quot;&gt;
+            &lt;details&gt;
+              &lt;summary&gt;&lt;strong&gt;&lt;u&gt;Multimodal Retrieval&lt;/u&gt;&lt;/strong&gt; &lt;br&gt; &amp;rarr; show/hide representative work on multimodal retrieval.&lt;/summary&gt;
+              &lt;ul class=&quot;research-bullets&quot;&gt;
+                &lt;li&gt;Dialogue Systems: &lt;a href=&quot;https://dl.acm.org/doi/pdf/10.1145/3474085.3475234&quot;&gt;TREASURE&lt;/a&gt; (MM’21), &lt;a href=&quot;https://arxiv.org/pdf/2310.07259&quot;&gt;ISR&lt;/a&gt; (TOIS’26)&lt;/li&gt;
+                &lt;li&gt;Recommendation: &lt;a href=&quot;https://dl.acm.org/doi/pdf/10.1145/3503161.3548020&quot;&gt;BiHGH&lt;/a&gt; (MM’22), &lt;a href=&quot;https://arxiv.org/pdf/2604.20318&quot;&gt;UniCVR&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;Person Re-Identification: &lt;a href=&quot;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10239469&quot;&gt;AGCL&lt;/a&gt; (TPAMI’23)&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/details&gt;
+            &lt;details&gt;
+              &lt;summary&gt;&lt;strong&gt;&lt;u&gt;Egocentric Vision&lt;/u&gt;&lt;/strong&gt; &lt;br&gt; &amp;rarr; show/hide representative work on egocentric vision.&lt;/summary&gt;
+              &lt;ul class=&quot;research-bullets&quot;&gt;
+                &lt;li&gt;Video Understanding: &lt;a href=&quot;https://proceedings.mlr.press/v235/zhang24aj/zhang24aj.pdf&quot;&gt;MFAS&lt;/a&gt; (ICML’24), &lt;a href=&quot;https://arxiv.org/pdf/2503.09143&quot;&gt;Exo2Ego&lt;/a&gt; (AAAI’26)&lt;/li&gt;
+                &lt;li&gt;Temporal Grounding: &lt;a href=&quot;https://arxiv.org/pdf/2506.03710&quot;&gt;OSGNet&lt;/a&gt; (CVPR’25)&lt;/li&gt;
+                &lt;li&gt;Action Anticipation: &lt;a href=&quot;https://arxiv.org/pdf/2508.01742&quot;&gt;INSIGHT&lt;/a&gt; (AAAI’26)&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/details&gt;
+            &lt;details&gt;
+              &lt;summary&gt;&lt;strong&gt;&lt;u&gt;Spatial Intelligence&lt;/u&gt;&lt;/strong&gt; &lt;br&gt; &amp;rarr; show/hide representative work on spatial intelligence.&lt;/summary&gt;
+              &lt;ul class=&quot;research-bullets&quot;&gt;
+                &lt;li&gt;Vision-Language Navigation: &lt;a href=&quot;https://arxiv.org/pdf/2606.07244&quot;&gt;Trajectory Waypoint&lt;/a&gt; (MM’26)&lt;/li&gt;
+                &lt;li&gt;Indoor Spatial Reasoning: &lt;a href=&quot;https://arxiv.org/pdf/2506.03642&quot;&gt;SpaceEra&lt;/a&gt; (NeurIPS’25), &lt;a href=&quot;https://arxiv.org/pdf/2607.01784&quot;&gt;SpaceEra++&lt;/a&gt; (TPAMI’26)&lt;/li&gt;
+                &lt;li&gt;Low-Altitude Benchmark: &lt;a href=&quot;https://arxiv.org/pdf/2606.27876&quot;&gt;SpatialUAV&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/details&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;news&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;home-section-bg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+          &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;
+            &lt;h1 class=&quot;mb-0&quot;&gt;Recent News&lt;/h1&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;section-body&quot;&gt;
+            &lt;ul class=&quot;news-list&quot;&gt;
+              &lt;li&gt;[2026/06] &lt;em&gt;Beyond Waypoints: A Trajectory-Centric Waypointing Paradigm for Vision-Language Navigation&lt;/em&gt; accepted by &lt;strong&gt;ACM MM 2026&lt;/strong&gt;.&lt;/li&gt;
+              &lt;li&gt;[2026/06] Received the &lt;strong&gt;Best Oral Presentation Award&lt;/strong&gt; at PolyU COMP-HIT (Shenzhen) CST Research Student Conference.&lt;/li&gt;
+              &lt;li&gt;[2026/06] Released &lt;a href=&quot;https://github.com/Hyu-Zhang/SpatialUAV&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SpatialUAV&lt;/a&gt;, a benchmark for low-altitude UAV spatial intelligence.&lt;/li&gt;
+              &lt;li&gt;[2026/06] &lt;em&gt;SpatialUAV: Benchmarking Spatial Intelligence for Low-Altitude UAV Perception, Collaboration, and Motion&lt;/em&gt; is available on &lt;a href=&quot;http://arxiv.org/abs/2606.27876&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;arXiv&lt;/a&gt;.&lt;/li&gt;
+              &lt;li&gt;[2026/06] Technical reports for MARS, OSGNet, VISTA, and JFAA at EgoVis 2026 are available online.&lt;/li&gt;
+              &lt;li&gt;[2026/06] &lt;strong&gt;Won 1st place&lt;/strong&gt; in Ego4D Natural Language Query, Goal Step, and Short-Term Object Interaction Anticipation tracks at the CVPR EgoVis Workshop 2026.&lt;/li&gt;
+              &lt;li&gt;[2026/06] &lt;strong&gt;Won 1st place&lt;/strong&gt; in the EPIC-Kitchens Action Anticipation Track and &lt;strong&gt;2nd place&lt;/strong&gt; in the CASTLE VQA Track at the CVPR EgoVis Workshop 2026.&lt;/li&gt;
+              &lt;li&gt;[2026/05] &lt;em&gt;SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video&lt;/em&gt; accepted by &lt;strong&gt;IEEE TPAMI 2026&lt;/strong&gt;.&lt;/li&gt;
+              &lt;li&gt;[2026/04] &lt;em&gt;Uncovering Hidden Connections: Iterative Search and Reasoning for Video-grounded Dialog&lt;/em&gt; accepted by &lt;strong&gt;ACM TOIS 2026&lt;/strong&gt;.&lt;/li&gt;
+              &lt;li&gt;[2026/02] &lt;em&gt;TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models&lt;/em&gt; accepted by &lt;strong&gt;CVPR 2026&lt;/strong&gt;.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;publications&quot; class=&quot;home-section wg-collection&quot;&gt;
+    &lt;div class=&quot;home-section-bg&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12&quot;&gt;
+          &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;
+            &lt;h1 class=&quot;mb-0&quot;&gt;Publications&lt;/h1&gt;
+          &lt;/div&gt;
+          &lt;p class=&quot;pub-intro&quot;&gt;Below is a list of selected publications. Please refer to my &lt;a href=&quot;https://scholar.google.com/citations?user=HGPmq2YAAAAJ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google Scholar&lt;/a&gt; page for the full list of publications.&lt;/p&gt;
+          &lt;ol class=&quot;pub-list&quot;&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/from-where-to-how.png&quot; alt=&quot;From Where to How paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video&lt;/strong&gt;&lt;br&gt;Qiaohui Chu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Haoxiang Shi, Dongmei Jiang, Liqiang Nie&lt;br&gt;arXiv 2609.08636, 2026&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2609.08636&quot;&gt;[Paper]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/spatialuav.jpeg&quot; alt=&quot;SpatialUAV paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;SpatialUAV: Benchmarking Spatial Intelligence for Low-Altitude UAV Perception, Collaboration, and Motion&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Qianlong Xiang, Kun Wang, Yaowei Wang, Liqiang Nie&lt;br&gt;arXiv 2606.27876, 2026&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2606.27876&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/SpatialUAV&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://huggingface.co/datasets/Hyu-Zhang/SpatialUAV&quot;&gt;[Data]&lt;/a&gt; &lt;a href=&quot;https://mp.weixin.qq.com/s/n36ivwZlKW32-hzyGoTO9g&quot;&gt;[Wechat]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/unicvr.png&quot; alt=&quot;UniCVR paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval&lt;/strong&gt;&lt;br&gt;Haokun Wen, Xuemeng Song, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Weili Guan, Xiangyu Zhao, Liqiang Nie&lt;br&gt;arXiv 2604.20318, 2026&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2604.20318&quot;&gt;[Paper]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/tina-plus.png&quot; alt=&quot;TINA+ paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;TINA+: Probing Residual Visual Knowledge in Unlearned Diffusion Models via Diffusion-Consistent Text-Free Inversion&lt;/strong&gt;&lt;br&gt;Qianlong Xiang, Miao Zhang, Kun Wang, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Junhui Hou, Liqiang Nie&lt;br&gt;arXiv 2608.17747, 2026&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2608.17747&quot;&gt;[Paper]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/beyond-waypoints.jpeg&quot; alt=&quot;Beyond Waypoints paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Beyond Waypoints: A Trajectory-Centric Waypointing Paradigm for Vision-Language Navigation&lt;/strong&gt;&lt;br&gt;Haoxiang Shi, Xiang Deng, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Qiaohui Chu, Yaowei Wang, Liqiang Nie&lt;br&gt;ACM MM 2026, CCF-A&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2606.07244&quot;&gt;[Paper]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/mars.png&quot; alt=&quot;MARS paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;MARS: Technical Report for the CASTLE Challenge at EgoVis 2026&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Qiaohui Chu, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie&lt;br&gt;CVPR 2026 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/pdf/2605.18176&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/MARS&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://www.codabench.org/competitions/13742/#/pages-tab&quot;&gt;[Website]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Runner-up in the VQA Track of the CASTLE Challenge (2/44)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/osgnet-2026.png&quot; alt=&quot;OSGNet 2026 paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;OSGNet with MLLM Reranking @ Ego4D Episodic Memory Challenge 2026&lt;/strong&gt;&lt;br&gt;Yisen Feng, Leigang Qu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Qiaohui Chu, Meng Liu, Xuemeng Song, Weili Guan, Liqiang Nie&lt;br&gt;CVPR 2026 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/pdf/2605.20818&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/CVPR25-OSGNet&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://www.codabench.org/competitions/15262/#/pages-tab&quot;&gt;[Website-NLQ]&lt;/a&gt; &lt;a href=&quot;https://www.codabench.org/competitions/14878/#/pages-tab&quot;&gt;[Website-GS]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the Natural Language Query and Goal Step Tracks of the Ego4D Challenge (1/19, 1/17)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/vista.png&quot; alt=&quot;VISTA paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;VISTA: Technical Report for the Ego4D Short-Term Object Interaction Anticipation at EgoVis 2026&lt;/strong&gt;&lt;br&gt;Qiaohui Chu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yisen Feng, Meng Liu, Weili Guan, Dongmei Jiang, Liqiang Nie&lt;br&gt;CVPR 2026 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/pdf/2605.20901&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/CorrineQiu/VISTA&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://www.codabench.org/competitions/14477/#/pages-tab&quot;&gt;[Website]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the Short-Term Object Interaction Anticipation Track of the Ego4D Challenge (1/21)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/jfaa.png&quot; alt=&quot;JFAA paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;JFAA: Technical Report for the EPIC-KITCHENS-100 Action Anticipation Challenge at EgoVis 2026&lt;/strong&gt;&lt;br&gt;Qiaohui Chu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yisen Feng, Meng Liu, Weili Guan, Dongmei Jiang, Liqiang Nie&lt;br&gt;CVPR 2026 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/pdf/2605.20904&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/CorrineQiu/JFAA&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://www.codabench.org/competitions/14471/#/pages-tab&quot;&gt;[Website]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the Action Anticipation Track of the EPIC-KITCHENS Challenge (1/18)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/spaceera-plusplus.png&quot; alt=&quot;SpaceEra++ paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;SpaceEra++: A Unified Framework Towards 3D Spatial Reasoning in Video&lt;/strong&gt;&lt;br&gt;Weili Guan, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Qianlong Xiang, Yaowei Wang, Liqiang Nie&lt;br&gt;IEEE TPAMI 2026, CCF-A, SCI-1, IF 24.3&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2607.01784&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/NeurIPS25-SpaceEra&quot;&gt;[Code]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Best Oral Presentation Award at PolyU COMP-HIT (Shenzhen) CST Research Student Conference&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/isr.png&quot; alt=&quot;ISR paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Uncovering Hidden Connections: Iterative Search and Reasoning for Video-grounded Dialog&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Yisen Feng, Yaowei Wang, Weili Guan, Liqiang Nie&lt;br&gt;ACM TOIS 2026, CCF-A, SCI-1, IF 9.1&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2310.07259&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/TOIS26-ISR&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/tina.png&quot; alt=&quot;TINA paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;TINA: Text-Free Inversion Attack for Unlearned Text-to-Image Diffusion Models&lt;/strong&gt;&lt;br&gt;Qianlong Xiang, Miao Zhang, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Kun Wang, Junhui Hou, Liqiang Nie&lt;br&gt;CVPR 2026, CCF-A&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2603.17828&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/CVPR26-TINA&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/exo2ego.png&quot; alt=&quot;Exo2Ego paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Exo2Ego: Exocentric Knowledge Guided MLLM for Egocentric Video Understanding&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Qiaohui Chu, Meng Liu, Haoxiang Shi, Yaowei Wang, Liqiang Nie&lt;br&gt;AAAI 2026, CCF-A&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2503.09143&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/AAAI26-Exo2Ego&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://egovisiongroup.github.io/Exo2Ego.github.io/&quot;&gt;[Project]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/insight.png&quot; alt=&quot;INSIGHT paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Intention-Guided Cognitive Reasoning for Egocentric Long-Term Action Anticipation&lt;/strong&gt;&lt;br&gt;Qiaohui Chu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Yisen Feng, Haoxiang Shi, Liqiang Nie&lt;br&gt;AAAI 2026, CCF-A&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2508.01742&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/iLearn-Lab/AAAI26-INSIGHT&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/spatialmind.png&quot; alt=&quot;SpatialMind paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Spatial Understanding from Videos: Structured Prompts Meet Simulation Data&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Zaijing Li, Haokun Wen, Weili Guan, Yaowei Wang, Liqiang Nie&lt;br&gt;NeurIPS 2025, CCF-A&lt;br&gt;&lt;a href=&quot;https://www.arxiv.org/abs/2506.03642&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/SpatialMind&quot;&gt;[Code]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Spotlight (Top 3%)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/osgnet-2025.png&quot; alt=&quot;OSGNet 2025 paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;OSGNet @ Ego4D Episodic Memory Challenge 2025&lt;/strong&gt;&lt;br&gt;Yisen Feng, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie&lt;br&gt;CVPR 2025 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://www.arxiv.org/abs/2506.03710&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=AIO9LZMbbuA&quot;&gt;[Video]&lt;/a&gt; &lt;a href=&quot;https://github.com/Yisen-Feng/OSGNet&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/1626/overview&quot;&gt;[Website-MQ]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/1629/overview&quot;&gt;[Website-NLQ]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/2188/overview&quot;&gt;[Website-GS]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Oral Presentation&lt;/span&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the Moment Queries, Natural Language Query, and Goal Step Tracks of the Ego4D Challenge (1/17, 1/28, 1/7)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/lta-2025.png&quot; alt=&quot;Ego4D LTA 2025 paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025&lt;/strong&gt;&lt;br&gt;Qiaohui Chu, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yisen Feng, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie&lt;br&gt;CVPR 2025 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2506.02550&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/CorrineQiu/Ego4D-LTA-Challenge-2025&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/1598/overview&quot;&gt;[Website]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the Long-Term Action Anticipation Track of the Ego4D Challenge (1/18)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/hcqa15.png&quot; alt=&quot;HCQA-1.5 paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;HCQA-1.5 @ Ego4D EgoSchema Challenge 2025&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yisen Feng, Qiaohui Chu, Meng Liu, Weili Guan, Yaowei Wang, Liqiang Nie&lt;br&gt;CVPR 2025 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2505.20644&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/HCQA&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/2238/overview&quot;&gt;[Website]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Third place in the EgoSchema Track of the Ego4D Challenge&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/object-shot.png&quot; alt=&quot;Object-Shot Enhanced Grounding Network paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;Object-Shot Enhanced Grounding Network for Egocentric Video&lt;/strong&gt;&lt;br&gt;Yisen Feng, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Weili Guan, Liqiang Nie&lt;br&gt;CVPR 2025, CCF-A&lt;br&gt;&lt;a href=&quot;https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Object-Shot_Enhanced_Grounding_Network_for_Egocentric_Video_CVPR_2025_paper.html&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Yisen-Feng/OSGNet&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/hcqa.png&quot; alt=&quot;HCQA paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;HCQA @ Ego4D EgoSchema Challenge 2024&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yuquan Xie, Yisen Feng, Zaijing Li, Meng Liu, Liqiang Nie&lt;br&gt;CVPR 2024 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2406.15771&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/HCQA&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/2238/overview&quot;&gt;[Website-ES]&lt;/a&gt; &lt;a href=&quot;https://www.kaggle.com/competitions/egoschema-public/leaderboard&quot;&gt;[Website-Kaggle]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Champion in the EgoSchema Track of the Ego4D Challenge (1/13) and Champion in the Kaggle EgoSchema Competition (1/72)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/objectnlq.png&quot; alt=&quot;ObjectNLQ paper figure&quot;&gt;&lt;div&gt;&lt;strong&gt;ObjectNLQ @ Ego4D Episodic Memory Challenge 2024&lt;/strong&gt;&lt;br&gt;Yisen Feng, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Yuquan Xie, Zaijing Li, Meng Liu, Liqiang Nie&lt;br&gt;CVPR 2024 EgoVis Workshop&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/2406.15778&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Yisen-Feng/ObjectNLQ&quot;&gt;[Code]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/1629/overview&quot;&gt;[Website-NLQ]&lt;/a&gt; &lt;a href=&quot;https://eval.ai/web/challenges/challenge-page/2188/overview&quot;&gt;[Website-GS]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Runner-up in the Natural Language Query Track and Third place in the Goal Step Track of the Ego4D Challenge&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/egovideoqa.png&quot; alt=&quot;EgoVideoQA paper thumbnail&quot;&gt;&lt;div&gt;&lt;strong&gt;Multi-Factor Adaptive Vision Selection for Egocentric Video Question Answering&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Zixin Liu, Xuemeng Song, Yaowei Wang, Liqiang Nie&lt;br&gt;ICML 2024, CCF-A&lt;br&gt;&lt;a href=&quot;https://proceedings.mlr.press/v235/zhang24aj.html&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://github.com/Hyu-Zhang/EgoVideoQA&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/partial-reid.png&quot; alt=&quot;Partial ReID paper thumbnail&quot;&gt;&lt;div&gt;&lt;strong&gt;Attribute-guided Collaborative Learning for Partial Person Re-identification&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Yuhong Li, Ming Yan, Zan Gao, Xiaojun Chang, Liqiang Nie&lt;br&gt;IEEE TPAMI 2023, CCF-A, SCI-1, IF 24.3&lt;br&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10239469&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/outfit-recommendation.png&quot; alt=&quot;Outfit Recommendation paper thumbnail&quot;&gt;&lt;div&gt;&lt;strong&gt;Bi-directional Heterogeneous Graph Hashing towards Efficient Outfit Recommendation&lt;/strong&gt;&lt;br&gt;Weili Guan, Xuemeng Song, &lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Chung-Hsing Yeh, Xiaojun Chang&lt;br&gt;ACM MM 2022, CCF-A&lt;br&gt;&lt;a href=&quot;https://dl.acm.org/doi/pdf/10.1145/3503161.3548020&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://outfitrec.wixsite.com/bihgh&quot;&gt;[Code]&lt;/a&gt;&lt;span class=&quot;pub-note&quot;&gt;Oral (Top 5.9%)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img class=&quot;pub-thumb&quot; src=&quot;assets/img/publications/multimodal-dialog.png&quot; alt=&quot;Multimodal Dialog paper thumbnail&quot;&gt;&lt;div&gt;&lt;strong&gt;Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Haoyu Zhang&lt;/strong&gt;, Meng Liu, Zan Gao, Xiaoqiang Lei, Yinglong Wang, Liqiang Nie&lt;br&gt;ACM MM 2021, CCF-A&lt;br&gt;&lt;a href=&quot;https://dl.acm.org/doi/pdf/10.1145/3474085.3475234&quot;&gt;[Paper]&lt;/a&gt; &lt;a href=&quot;https://acmmmtreasure.wixsite.com/treasure&quot;&gt;[Code]&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+          &lt;/ol&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;awards&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-12&quot;&gt;
+      &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;&lt;h1 class=&quot;mb-0&quot;&gt;Awards&lt;/h1&gt;&lt;/div&gt;
+      &lt;ul class=&quot;award-list&quot;&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Best Oral Presentation Award at PolyU COMP-HIT (Shenzhen) CST Research Student Conference, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Chunhui Innovation Achievement Award, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Heilongjiang Provincial Model Student, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Tat-Seng Chua Scholarship, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;NeurIPS Scholar Award, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;INSUN Education Scholarship, 2024&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;ICML Travel Award, 2024&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Second and Third Prize at the Xinchuang and Digital Economy Postdoctoral Haihe Academic Event, 2023&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Outstanding Graduates of Shandong University, 2023&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;National Scholarship, 2021&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;ACM MM Student Travel Award, 2021&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Outstanding Graduates of Shandong Province, 2020&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-medal award-medal&quot;&gt;&lt;/i&gt;&lt;span&gt;Top 10 Outstanding Students in the School of Computer Science and Engineering, 2019&lt;/span&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;competitions&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-12&quot;&gt;
+      &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;&lt;h1 class=&quot;mb-0&quot;&gt;Competitions&lt;/h1&gt;&lt;/div&gt;
+      &lt;ul class=&quot;competition-list&quot;&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 3rd in CVPR Computer Vision in the Wild Workshop, MindCube Challenge, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Natural Language Query Track, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Goal Step Track, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Short-Term Object Interaction Anticipation Track, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, EPIC-Kitchens Challenge - Action Anticipation Track, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 2nd in CVPR EgoVis Workshop, CASTLE Challenge - VQA Track, 2026&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Long-Term Action Anticipation Track, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Moment Queries Track, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Natural Language Query Track, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - Goal Step Track, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 3rd in CVPR EgoVis Workshop, Ego4D Challenge - EgoSchema Track, 2025&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in Kaggle EgoSchema Competition, 2024&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 1st in CVPR EgoVis Workshop, Ego4D Challenge - EgoSchema Track, 2024&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 2nd in CVPR EgoVis Workshop, Ego4D Challenge - Natural Language Query Track, 2024&lt;/span&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;i class=&quot;fas fa-trophy competition-trophy&quot;&gt;&lt;/i&gt;&lt;span&gt;Rank 3rd in CVPR EgoVis Workshop, Ego4D Challenge - Goal Step Track, 2024&lt;/span&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;experience&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-12&quot;&gt;
+      &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;&lt;h1 class=&quot;mb-0&quot;&gt;Experience&lt;/h1&gt;&lt;/div&gt;
+      &lt;div class=&quot;timeline-item&quot;&gt;&lt;div&gt;&lt;strong&gt;Kuaishou Technology, Beijing&lt;/strong&gt;&lt;br&gt;Academic Intern, Community Science, Jul 2024 - Jul 2025&lt;br&gt;Project: Multimodal Large Language Model.&lt;/div&gt;&lt;img src=&quot;kuaishou_square.png&quot; alt=&quot;Kuaishou logo&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;timeline-item&quot;&gt;&lt;div&gt;&lt;strong&gt;Alibaba Group, Hangzhou&lt;/strong&gt;&lt;br&gt;Academic Intern, Alibaba Cloud Intelligence, Wed 2022 - Jul 2022&lt;br&gt;Project: Partial Person Re-identification.&lt;/div&gt;&lt;img src=&quot;alibaba_white.jpg&quot; alt=&quot;Alibaba logo&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;section id=&quot;service&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-12&quot;&gt;
+      &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;&lt;h1 class=&quot;mb-0&quot;&gt;Academic Service&lt;/h1&gt;&lt;/div&gt;
+      &lt;ul class=&quot;service-list&quot;&gt;
+        &lt;li&gt;&lt;span class=&quot;service-heading&quot;&gt;Conference Reviewer:&lt;/span&gt; CVPR 2025-2026, ICCV 2025, NeurIPS 2022-2025, ICML 2023-2025, ICLR 2024-2025, SIGIR 2025, ACM MM 2022-2026, AAAI 2025-2026, IJCAI 2024, ICMR 2025-2026, PRCV 2023-2024, ISCAS 2024, ECAI 2024.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;service-heading&quot;&gt;Journal Reviewer:&lt;/span&gt; IEEE TPAMI, IEEE TIP, IEEE TCSVT, IEEE TMM, IEEE TKDE, Information Sciences.&lt;/li&gt;
+        &lt;li&gt;&lt;span class=&quot;service-heading&quot;&gt;Volunteer:&lt;/span&gt; ICML 2024, China3DV 2024.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;!--
+  &lt;section id=&quot;education&quot; class=&quot;home-section wg-markdownme&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;col-12&quot;&gt;
+      &lt;div class=&quot;section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start&quot;&gt;&lt;h1 class=&quot;mb-0&quot;&gt;Education&lt;/h1&gt;&lt;/div&gt;
+      &lt;div class=&quot;timeline-item&quot;&gt;&lt;div&gt;&lt;strong&gt;Harbin Institute of Technology, Shenzhen&lt;/strong&gt;&lt;br&gt;School of Computer Science and Technology, PhD Student, Sep 2023 - Now&lt;br&gt;Advisors: Prof. Liqiang Nie, Prof. Yaowei Wang, and Prof. Meng Liu.&lt;/div&gt;&lt;img src=&quot;hit_logo.jpg&quot; alt=&quot;HIT Shenzhen logo&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;timeline-item&quot;&gt;&lt;div&gt;&lt;strong&gt;Shandong University&lt;/strong&gt;&lt;br&gt;School of Computer Science and Technology, M.S., Sep 2020 - Jun 2023&lt;br&gt;Advisors: Prof. Liqiang Nie and Prof. Meng Liu.&lt;/div&gt;&lt;img src=&quot;sdu_logo.jpg&quot; alt=&quot;Shandong University logo&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/section&gt;
+  --&gt;
+
+
+&lt;/div&gt;
+</code></pre>
+  </div>
+</div>
+
+</body>
+</html>
